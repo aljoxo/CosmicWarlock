@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="bfa22a59-fd65-4e35-ae0f-ac960c3b5fd2">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1023109a-1dbb-441b-8101-a1a4beb48ff1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h60d40435g87aag3796g28efg360950a70532" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3beded03gb757gb32fgb64dgaad03a7beba9" version="1" />
+        <field name="Type" type="FixedStringTableFieldDefinition" value="Cosmic" />
+        <field name="ProgressionTableId" type="GuidTableFieldDefinition" value="b3099164-efa9-4525-aa82-469712c0ad59" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

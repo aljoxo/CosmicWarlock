@@ -1,0 +1,4 @@
+new entry "Shout_APO_HarnessTheCosmos"
+type "SpellData"
+data "SpellType" "Shout"
+

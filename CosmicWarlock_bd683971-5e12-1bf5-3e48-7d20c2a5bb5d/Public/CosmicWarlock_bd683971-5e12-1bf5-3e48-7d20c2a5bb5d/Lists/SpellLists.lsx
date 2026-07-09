@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Target_FaerieFire;Projectile_GuidingBolt"/>
+                    <attribute id="UUID" type="guid" value="afb4f486-c34f-4774-aa3a-9eeff4bdc201"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_Moonbeam;Shout_SeeInvisibility"/>
+                    <attribute id="UUID" type="guid" value="40e83f5f-5950-47a5-a03f-872293c1a6d8"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container"/>
+                    <attribute id="UUID" type="guid" value="fddbf5f5-b74f-422f-8d58-6cf0cab777ea"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Shout_FireShield;Target_Invisibility_Greater"/>
+                    <attribute id="UUID" type="guid" value="0ecf99b4-344e-4502-87bb-ebf9d163c5a9"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Target_FlameStrike"/>
+                    <attribute id="UUID" type="guid" value="4ea77ce1-4c71-425b-a2bc-562ac0764710"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 1"/>
+                    <attribute id="UUID" type="guid" value="25c8558b-1ec3-4332-ac10-e19c899518bb"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 2"/>
+                    <attribute id="UUID" type="guid" value="7e99c531-f460-43fd-a445-e5bb5bf5b59e"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 3"/>
+                    <attribute id="UUID" type="guid" value="d0b874b1-6d16-40f6-8ee2-49eab10fee93"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 4"/>
+                    <attribute id="UUID" type="guid" value="a987f9d2-52e5-483c-ab9c-bd9bf977b432"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 5"/>
+                    <attribute id="UUID" type="guid" value="75342813-b966-45de-a3e4-76c85146f440"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Warlock Cosmos Cosmic Guidance"/>
+                    <attribute id="Spells" type="LSString" value="Target_APO_CosmicGuidance"/>
+                    <attribute id="UUID" type="guid" value="62d6bdd2-d565-416e-843c-1ff051e278d1"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

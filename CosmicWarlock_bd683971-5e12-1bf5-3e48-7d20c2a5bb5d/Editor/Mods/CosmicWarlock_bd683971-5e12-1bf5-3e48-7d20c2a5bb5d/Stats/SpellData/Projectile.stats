@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="67731907-4ad8-4be6-9326-d6f5b982140e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="172ff015-f6e0-4422-a448-427d795348b9" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_SUPERNOVA" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
+        <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="9" />
+        <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Radiant,Magical);ApplyStatus(BLINDED,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Radiant,Magical);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Item() and not Self() and not Ally() and not Dead();" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f346b284-854e-4dd9-b87c-3938f5178265,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a " />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d191766ge187gb9e3g910fg170d6d300de3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha31781e4ge807gcd48g772agbe84a7c593de" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);DealDamage(8d6,Radiant)" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RadianceOfTheDawn" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;5ca5b155-fbc3-465e-ab24-55421c91bea7,,;7da4ad07-cfc9-4de0-a02c-7f1b07fac394,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('APO_SUPERNOVA_DOWNED');" />
+        <field name="ImpactEffect" type="GuidObjectTableFieldDefinition" value="28475871-7192-41e7-baa9-5bf4785fd24c" />
+        <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
+        <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

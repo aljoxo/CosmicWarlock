@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3f5063e7-e02b-4849-a503-9ba01dc6e2e6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="afb4f486-c34f-4774-aa3a-9eeff4bdc201" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos AlwaysPrepared SLevel 1" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_FaerieFire;Projectile_GuidingBolt" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="40e83f5f-5950-47a5-a03f-872293c1a6d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos AlwaysPrepared SLevel 2" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Moonbeam;Shout_SeeInvisibility" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fddbf5f5-b74f-422f-8d58-6cf0cab777ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos AlwaysPrepared SLevel 3" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_Daylight_Container" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ecf99b4-344e-4502-87bb-ebf9d163c5a9" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos AlwaysPrepared SLevel 4" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_FireShield;Target_Invisibility_Greater" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ea77ce1-4c71-425b-a2bc-562ac0764710" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos AlwaysPrepared SLevel 5" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Shout_DispelEvilAndGood;Target_FlameStrike" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="25c8558b-1ec3-4332-ac10-e19c899518bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos SLevel 1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7e99c531-f460-43fd-a445-e5bb5bf5b59e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos SLevel 2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0b874b1-6d16-40f6-8ee2-49eab10fee93" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos SLevel 3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a987f9d2-52e5-483c-ab9c-bd9bf977b432" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos SLevel 4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="75342813-b966-45de-a3e4-76c85146f440" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos SLevel 5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62d6bdd2-d565-416e-843c-1ff051e278d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Warlock Cosmos Cosmic Guidance" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_APO_CosmicGuidance" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

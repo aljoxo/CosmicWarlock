@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c59c7e2a-52d6-46e7-ab0f-4230415caeae" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_CosmicGuidance" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c64ba536-9a1a-4f17-b16e-94fd6c9b85cb" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf13d1272g741dgdb7dg44a0gec94fc42cb1f" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

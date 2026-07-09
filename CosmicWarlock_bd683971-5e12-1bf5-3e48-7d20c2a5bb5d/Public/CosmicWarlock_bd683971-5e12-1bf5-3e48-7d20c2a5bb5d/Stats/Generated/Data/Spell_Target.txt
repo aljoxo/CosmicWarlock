@@ -1,0 +1,7 @@
+new entry "Target_APO_CosmicGuidance"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Guidance"
+data "TargetRadius" "9"
+data "DisplayName" "hf13d1272g741dgdb7dg44a0gec94fc42cb1f;1"
+

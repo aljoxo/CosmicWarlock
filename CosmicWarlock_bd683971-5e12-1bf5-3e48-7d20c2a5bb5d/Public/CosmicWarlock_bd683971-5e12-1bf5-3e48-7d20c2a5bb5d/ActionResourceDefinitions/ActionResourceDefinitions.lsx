@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="he25322ceg47fag624fgf631g24c197dd7b5f" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_APO_Starstruck"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="db5bcf46-dfb7-4308-98a4-3494c4cf7649"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8356c2c9gd2a6g1c6fg1dafg336a4552643e" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Interrupt_APO_UnstableNebula"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="ddfb3aa6-aa36-4392-b89a-fcddf5b73da1"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h60e8ed21ge9e3g6952gd658gaff5f060e135" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="APO_HarnessTheCosmos_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="UUID" type="guid" value="22bebf66-464b-4611-a6ab-af4cf92d5586"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

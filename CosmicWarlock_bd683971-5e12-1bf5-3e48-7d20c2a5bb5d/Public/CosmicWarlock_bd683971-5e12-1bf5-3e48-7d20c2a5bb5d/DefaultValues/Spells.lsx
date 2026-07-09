@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_FaerieFire;Projectile_GuidingBolt"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
+                    <attribute id="UUID" type="guid" value="0df3c7f6-db3f-4d36-a418-0f351599d92a"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

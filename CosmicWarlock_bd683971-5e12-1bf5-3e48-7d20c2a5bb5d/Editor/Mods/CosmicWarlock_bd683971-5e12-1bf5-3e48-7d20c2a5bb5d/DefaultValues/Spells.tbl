@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b4f18c50-e2c0-4be6-9609-5367fef946db">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="0df3c7f6-db3f-4d36-a418-0f351599d92a" />
+        <field name="ProgressionUUID" type="GuidTableFieldDefinition" value="b3099164-efa9-4525-aa82-469712c0ad59" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Add" type="StringTableFieldDefinition" value="Target_FaerieFire;Projectile_GuidingBolt" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

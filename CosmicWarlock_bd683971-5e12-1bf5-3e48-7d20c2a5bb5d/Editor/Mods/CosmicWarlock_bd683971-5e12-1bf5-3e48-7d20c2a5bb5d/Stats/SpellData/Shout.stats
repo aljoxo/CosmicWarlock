@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14581e0e-2e8d-4813-8652-050965dca996" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

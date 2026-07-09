@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="hce289d3eg0f74g3538gda9agda40dd3df5ef" version="2">The Cosmos</content>
+  <content contentuid="hd722320egae18gc626g1dcfgab1d85d49dcd" version="1">You have made your pact with a primordial cosmic presence, imbuing you with powers that lay dormant among the cosmos.</content>
+  <content contentuid="h8981adbdg6799g0147g8c3ag359291be0ddc" version="1">The Cosmos</content>
+  <content contentuid="h44eca95dgb81dge51fgd019g1564fe56b395" version="1">You have made your pact with a primordial cosmic presence, imbuing you with powers that lay dormant among the cosmos.</content>
+  <content contentuid="h60d40435g87aag3796g28efg360950a70532" version="1">The Cosmos</content>
+  <content contentuid="h3beded03gb757gb32fgb64dgaad03a7beba9" version="1">You have made your pact with a primordial cosmic presence, imbuing you with powers that lay dormant among the cosmos.</content>
+  <content contentuid="hf13d1272g741dgdb7dg44a0gec94fc42cb1f" version="1">Cosmic Guidance</content>
+  <content contentuid="h1e68cdf3g316eg5cbbg3108g54e8041445d6" version="1">Cosmic Guidance</content>
+  <content contentuid="h4f064683gec48g65dege8b9g86efb1ed54fa" version="1">Supernova</content>
+  <content contentuid="h5634eddbgb257g9861g755fg626b4e053f0a" version="1">Supernova</content>
+  <content contentuid="h7ce5272fg16fbgcaf9gb454g26058cf969f3" version="3">If the character reaches 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it regains [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h3d191766ge187gb9e3g910fg170d6d300de3" version="1">Supernova Collapse</content>
+  <content contentuid="ha31781e4ge807gcd48g772agbe84a7c593de" version="1">Enemy creatures within [1] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [2] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="1">Supernova</content>
+  <content contentuid="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="1">Unstable Nebula</content>
+  <content contentuid="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="1">When you succeed a &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;, you can use your reaction to deal [1] to the creature that forced the saving throw.</content>
+  <content contentuid="hbdf7eff4gb953g4207gc696ga38a814111bf" version="1">Unstable Nebula</content>
+  <content contentuid="h56cb9e63ga069g91eag949fg6f449963fc3f" version="1">Deal [1] to the creature that forced the &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;.</content>
+  <content contentuid="he25322ceg47fag624fgf631g24c197dd7b5f" version="1">%%% EMPTY</content>
+  <content contentuid="h8356c2c9gd2a6g1c6fg1dafg336a4552643e" version="1">%%% EMPTY</content>
+  <content contentuid="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="1">Starstruck</content>
+  <content contentuid="hd9dadf34g33bdg6edfgb318g342736d511d4" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Additionally, if you fail a &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;, you can reroll it with a bonus equal to your Charisma modifier.</content>
+  <content contentuid="hf16d81c2g85f6g1ad1g6ac0gd245adcf01f2" version="1">Starstruck</content>
+  <content contentuid="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="1">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again, using the new result instead. </content>
+  <content contentuid="h7ce0556cg60dfg2359gcdadg483191b84e09" version="1">Cosmic Guidance</content>
+  <content contentuid="h1c45ccbdgab18gb7dfgb327gc77ae55ca73f" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt;. Additionally, whenever you make an &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; check, you gain a bonus to the check equal to your Charisma modifier.</content>
+  <content contentuid="h0324f9dfg4740g19f7gd661ge82d24d07492" version="1">Starburst</content>
+  <content contentuid="h3e6b57b3g0f28ga1a5g6346gc67edc2188f3" version="1">The first time you deal damage to a creature, you can deal an additional [1].</content>
+  <content contentuid="h60e8ed21ge9e3g6952gd658gaff5f060e135" version="1">%%% EMPTY</content>
+  <content contentuid="h4df3a4cdga271g04c0gfccdg57e443254ed6" version="1">Harness the Cosmos</content>
+  <content contentuid="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="1">Become a living constellation, warping spacetime and wielding the power of the stars.</content>
+  <content contentuid="ha53c5132g254dgb645g4aacg4bfa355f78ad" version="1">Once you use this feature, you can't use it again until you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; unless you expend a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slot&lt;/LSTag&gt; to restore your use of it.</content>
+</contentList>

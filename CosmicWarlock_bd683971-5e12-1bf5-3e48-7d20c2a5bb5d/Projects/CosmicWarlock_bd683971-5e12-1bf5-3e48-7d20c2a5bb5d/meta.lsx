@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="GameProject" type="LSString" value=""/>
+            <attribute id="Module" type="LSString" value="bd683971-5e12-1bf5-3e48-7d20c2a5bb5d"/>
+            <attribute id="Name" type="LSString" value="CosmicWarlock"/>
+            <attribute id="UUID" type="LSString" value="24c7226b-2be1-916a-4364-aee08dd9a65a"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
+            <children>
+                <node id="Categories"/>
+            </children>
+        </node>
+    </region>
+</save>

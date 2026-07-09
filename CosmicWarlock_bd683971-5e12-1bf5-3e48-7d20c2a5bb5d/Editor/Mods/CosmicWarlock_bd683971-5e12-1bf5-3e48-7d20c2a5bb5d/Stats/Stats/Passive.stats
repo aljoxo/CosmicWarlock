@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f9f430bd-c22b-4b34-887a-d3714fb11b78" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_CosmicGuidance" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ce0556cg60dfg2359gcdadg483191b84e09" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1c45ccbdgab18gb7dfgb327gc77ae55ca73f" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,Cause.CharismaModifier);ProficiencyBonus(Skill,Arcana);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da74e6b0-6997-46d1-9fc6-7bd8bafd5bb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_Starburst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0324f9dfg4740g19f7gd661ge82d24d07492" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e6b57b3g0f28ga1a5g6346gc67edc2188f3" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8+CharismaModifier)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;IsToggled;ToggledDefaultOn;ToggledDefaultAddToHotbar" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('APO_STARBURST_BLOCK');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d8+CharismaModifier,Radiant,Magical);ApplyStatus(APO_STARBURST_BLOCK,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4ee9af8a-8b64-4142-9989-9a8e0bd181cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_Starstruck" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9dadf34g33bdg6edfgb318g342736d511d4" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_APO_Starstruck);ActionResource(Interrupt_APO_Starstruck,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebd8eccc-c16c-4441-9cdb-5361647226d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StellarRemnant_Rebirth" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1);Distance(9);DealDamage(8d6,Radiant)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_SUPERNOVA,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15547c96-7872-4c12-a875-4d822038d557" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StellarRemnant_Reaction" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6+CharismaModifier)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_APO_UnstableNebula);ActionResource(Interrupt_APO_UnstableNebula,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4bc8430f-949f-48e5-af4d-692496895472" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4df3a4cdga271g04c0gfccdg57e443254ed6" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="1" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha53c5132g254dgb645g4aacg4bfa355f78ad" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_APO_HarnessTheCosmos);ActionResource(APO_HarnessTheCosmos_Charge,1,0);" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

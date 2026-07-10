@@ -24,7 +24,7 @@ data "Boosts" "DownedStatus(APO_SUPERNOVA_DOWNED,5);"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 data "StatusGroups" "SG_RemoveOnRespec"
 
-new entry "APO_UNSTABLE_NEBULA"
+new entry "APO_SOLAR_FLARE"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"

@@ -1,0 +1,4 @@
+function APO_CharismaGreatherThanOrEqual(value, entity)
+    local entity = entity or context.Source
+    return ConditionResult(entity.Charisma >= value)
+end

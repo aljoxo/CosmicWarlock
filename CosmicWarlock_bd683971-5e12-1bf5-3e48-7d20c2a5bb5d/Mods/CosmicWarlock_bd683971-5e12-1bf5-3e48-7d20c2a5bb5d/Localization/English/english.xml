@@ -15,16 +15,16 @@
   <content contentuid="ha31781e4ge807gcd48g772agbe84a7c593de" version="1">Enemy creatures within [1] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [2] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="1">Supernova</content>
   <content contentuid="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
-  <content contentuid="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="1">Unstable Nebula</content>
+  <content contentuid="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="2">Solar Flare</content>
   <content contentuid="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="1">When you succeed a &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;, you can use your reaction to deal [1] to the creature that forced the saving throw.</content>
-  <content contentuid="hbdf7eff4gb953g4207gc696ga38a814111bf" version="1">Unstable Nebula</content>
+  <content contentuid="hbdf7eff4gb953g4207gc696ga38a814111bf" version="2">Solar Flare</content>
   <content contentuid="h56cb9e63ga069g91eag949fg6f449963fc3f" version="1">Deal [1] to the creature that forced the &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;.</content>
   <content contentuid="he25322ceg47fag624fgf631g24c197dd7b5f" version="1">%%% EMPTY</content>
   <content contentuid="h8356c2c9gd2a6g1c6fg1dafg336a4552643e" version="1">%%% EMPTY</content>
-  <content contentuid="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="1">Starstruck</content>
-  <content contentuid="hd9dadf34g33bdg6edfgb318g342736d511d4" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage. Additionally, if you fail a &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;, you can reroll it with a bonus equal to your Charisma modifier.</content>
-  <content contentuid="hf16d81c2g85f6g1ad1g6ac0gd245adcf01f2" version="1">Starstruck</content>
-  <content contentuid="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="1">Whenever you fail a &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;, you can roll again, using the new result instead. </content>
+  <content contentuid="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="3">Lucky Stars</content>
+  <content contentuid="hd9dadf34g33bdg6edfgb318g342736d511d4" version="3">You gain the ability to add [1] to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="hf16d81c2g85f6g1ad1g6ac0gd245adcf01f2" version="3">Lucky Stars: Saving Throw</content>
+  <content contentuid="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="2">Add a +[1] bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; if it would otherwise fail.</content>
   <content contentuid="h7ce0556cg60dfg2359gcdadg483191b84e09" version="1">Cosmic Guidance</content>
   <content contentuid="h1c45ccbdgab18gb7dfgb327gc77ae55ca73f" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt;. Additionally, whenever you make an &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; check, you gain a bonus to the check equal to your Charisma modifier.</content>
   <content contentuid="h0324f9dfg4740g19f7gd661ge82d24d07492" version="1">Starburst</content>
@@ -33,4 +33,7 @@
   <content contentuid="h4df3a4cdga271g04c0gfccdg57e443254ed6" version="1">Harness the Cosmos</content>
   <content contentuid="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="1">Become a living constellation, warping spacetime and wielding the power of the stars.</content>
   <content contentuid="ha53c5132g254dgb645g4aacg4bfa355f78ad" version="1">Once you use this feature, you can't use it again until you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; unless you expend a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slot&lt;/LSTag&gt; to restore your use of it.</content>
+  <content contentuid="hf2757cffgf13eg9645g6857g7d9504e91b65" version="2">Lucky Stars: Attack Roll</content>
+  <content contentuid="hc4d85785ga679ge402gf519g33a1663e2f38" version="1">Add a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; if it would otherwise fail.</content>
+  <content contentuid="he422d04fg933cg6db7ge223g39b050c39fa7" version="1">You can use this feature a number of times equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;, minimum of once. You regain all expended uses when you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;</content>
 </contentList>

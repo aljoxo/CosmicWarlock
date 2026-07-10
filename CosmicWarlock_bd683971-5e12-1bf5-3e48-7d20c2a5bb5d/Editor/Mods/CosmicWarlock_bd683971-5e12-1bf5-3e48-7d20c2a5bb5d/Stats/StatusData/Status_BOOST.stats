@@ -36,7 +36,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="f2ef5581-3692-4cee-97cd-759e822d5df7" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_UNSTABLE_NEBULA" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_SOLAR_FLARE" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6+Cause.CharismaModifier,Radiant,Magical)" />
         <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="04546e68-7dba-4d99-8366-284b5fcf9cd0" />

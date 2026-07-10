@@ -27,11 +27,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4ee9af8a-8b64-4142-9989-9a8e0bd181cc" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_Starstruck" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9dadf34g33bdg6edfgb318g342736d511d4" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_LuckyStar" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9dadf34g33bdg6edfgb318g342736d511d4" version="3" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_APO_Starstruck);ActionResource(Interrupt_APO_Starstruck,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_APO_LuckyStar_SavingThrow);UnlockInterrupt(Interrupt_APO_LuckyStar_Attack);IF(APO_CharismaGreatherThanOrEqual(0)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(14)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(16)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(18)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(20)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(22)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(24)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(26)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(28)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(30)):ActionResource(Interrupt_APO_LuckyStar,1,0);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d4" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he422d04fg933cg6db7ge223g39b050c39fa7" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -50,11 +52,11 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="15547c96-7872-4c12-a875-4d822038d557" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_StellarRemnant_Reaction" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6+CharismaModifier)" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_APO_UnstableNebula);ActionResource(Interrupt_APO_UnstableNebula,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(Interrupt_APO_SolarFlare);ActionResource(Interrupt_APO_SolarFlare,1,0);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

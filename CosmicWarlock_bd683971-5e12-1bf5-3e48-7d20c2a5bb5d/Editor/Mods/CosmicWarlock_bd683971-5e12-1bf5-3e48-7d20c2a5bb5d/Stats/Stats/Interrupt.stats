@@ -3,34 +3,45 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="dd75c52d-c00e-45aa-b880-3f59f3ea7460" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_Starstruck" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf16d81c2g85f6g1ad1g6ac0gd245adcf01f2" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3e151e24-be2f-4608-a5ef-d9f5e0df70d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_LuckyStar_Attack" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf2757cffgf13eg9645g6857g7d9504e91b65" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc4d85785ga679ge402gf519g33a1663e2f38" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d4" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not Dead(context.Observer) and HasInterruptedSavingThrow() and Self(context.Observer,context.Target) and not AnyEntityIsItem() and IsRerollInterruptInteresting();" />
-        <field name="Properties" type="StringTableFieldDefinition" value="SetReroll(20,true);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="Interrupt_APO_Starstruck:1;" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Source, context.Observer) and HasInterruptedAttack()) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(8, context.Source);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(2d4);" />
+        <field name="Cost" type="StringTableFieldDefinition" value="Interrupt_APO_LuckyStar:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
-        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('Interrupt_APO_Starstruck', 1, 0, false, false, context.Source) and not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />
-        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('Interrupt_APO_LuckyStar', 1, 0, false, false, context.Source) and not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />
+        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="InterruptFlags" type="EnumerationListTableFieldDefinition" value="InterruptWhileInvisible" enumeration_type_name="InterruptFlagsList" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dd75c52d-c00e-45aa-b880-3f59f3ea7460" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_LuckyStar_SavingThrow" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf16d81c2g85f6g1ad1g6ac0gd245adcf01f2" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="2" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and (Self(context.Target,context.Observer) and HasInterruptedSavingThrow()) and not AnyEntityIsItem() and IsFlatValueInterruptInteresting(8, context.Target);" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3e151e24-be2f-4608-a5ef-d9f5e0df70d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="45c30588-06e2-427c-9842-81374b5f169c" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_UnstableNebula" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdf7eff4gb953g4207gc696ga38a814111bf" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_SolarFlare" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbdf7eff4gb953g4207gc696ga38a814111bf" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h56cb9e63ga069g91eag949fg6f449963fc3f" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(2d6+CharismaModifier)" />
         <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnPostRoll" enumeration_type_name="InterruptContext" version="1" />
         <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
         <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
         <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and HasInterruptedSavingThrow() and IsLastConditionRollSuccess(ConditionRollType.ConditionSavingThrow);" />
-        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_SOURCE,APO_UNSTABLE_NEBULA,100,0);" />
+        <field name="Properties" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_SOURCE,APO_SOLAR_FLARE,100,0);" />
         <field name="Cost" type="StringTableFieldDefinition" value="Interrupt_APO_UnstableNebula:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
         <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('Interrupt_APO_UnstableNebula', 1, 0, false, false, context.Source) and not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />

@@ -14,6 +14,7 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Incapacitated" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="5508ea40-3f23-436d-980d-0b8143f6e2f3" />
         <field name="HideOverheadUI" type="BoolTableFieldDefinition" value="True" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="74521f11-86dc-430e-bd13-4baeb7fab3f3" />
       </fields>
     </stat_object>
   </stat_objects>

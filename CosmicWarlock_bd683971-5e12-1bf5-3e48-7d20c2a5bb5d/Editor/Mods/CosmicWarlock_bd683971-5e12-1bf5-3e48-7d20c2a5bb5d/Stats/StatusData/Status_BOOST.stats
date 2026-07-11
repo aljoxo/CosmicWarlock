@@ -12,34 +12,64 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="c6b0e67b-9c2f-4179-b55e-b589482e1905" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_STARBURST_BLOCK" />
-        <field name="StackId" type="StringTableFieldDefinition" value="APO_STARBURST_BLOCK" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_DIRE_OMEN" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_DIRE_OMEN" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="MultiplyEffectsByDuration" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7faf4e24g5acbgd2f5ga9b8gb61be17f47a2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9b28c54gc01egf2acg7a9fga13211e3fa9a" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Invisible);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="APO_DireOmen_Movement;APO_DireOmen_MovementSpell;" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="9e863d8f-a1f5-4f68-88ca-ddb56828c8d8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fae16fb1-58c6-4653-9fe4-3ff557fb5a2f" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_DIRE_OMEN_DAMAGE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6b0e67b-9c2f-4179-b55e-b589482e1905" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_DIRE_OMEN_DAMAGE" />
+        <field name="Passives" type="StringTableFieldDefinition" value="-;" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant,Magical);RemoveStatus(SELF,APO_DIRE_OMEN)" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_None" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5728037a-d1fd-43fd-a6db-049f860a13ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_DIRE_OMEN_IMMUNITY" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_DIRE_OMEN_IMMUNITY" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="9d63f1de-c243-4694-9a37-5aa7cf8b26e6" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_SUPERNOVA" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5634eddbgb257g9861g755fg626b4e053f0a" version="1" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARBURST" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h5634eddbgb257g9861g755fg626b4e053f0a" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7ce5272fg16fbgcaf9gb454g26058cf969f3" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1);Distance(9);DealDamage(8d6,Radiant)" />
         <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_SurvivalInstinct_MO" />
         <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_SurvivalInstinct_MO_Stop" />
-        <field name="StackId" type="StringTableFieldDefinition" value="APO_SUPERNOVA" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(APO_SUPERNOVA_DOWNED,5);" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_STARBURST" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DownedStatus(APO_STARBURST_DOWNED,5);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="f2ef5581-3692-4cee-97cd-759e822d5df7" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_SOLAR_FLARE" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(2d6+Cause.CharismaModifier,Radiant,Magical)" />
-        <field name="StatusEffectOnTurn" type="GuidObjectTableFieldDefinition" value="04546e68-7dba-4d99-8366-284b5fcf9cd0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f45af304-7190-4546-8d4d-b2800429e8c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STELLAR_REMNANT_RESIST" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6f20a1c1g14b7g8392g3b77g07fefd34ff96" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h547291c6g1c87gaa54gb625gf44cf228f628" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_CosmicResilience" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_STELLAR_REMNANT_RESIST" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Radiant,Resistant);" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

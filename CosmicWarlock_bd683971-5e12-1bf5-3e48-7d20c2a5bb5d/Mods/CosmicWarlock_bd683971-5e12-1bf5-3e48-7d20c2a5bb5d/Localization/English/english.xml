@@ -9,14 +9,14 @@
   <content contentuid="hf13d1272g741dgdb7dg44a0gec94fc42cb1f" version="1">Cosmic Guidance</content>
   <content contentuid="h1e68cdf3g316eg5cbbg3108g54e8041445d6" version="1">Cosmic Guidance</content>
   <content contentuid="h4f064683gec48g65dege8b9g86efb1ed54fa" version="1">Supernova</content>
-  <content contentuid="h5634eddbgb257g9861g755fg626b4e053f0a" version="1">Supernova</content>
+  <content contentuid="h5634eddbgb257g9861g755fg626b4e053f0a" version="2">Starburst</content>
   <content contentuid="h7ce5272fg16fbgcaf9gb454g26058cf969f3" version="3">If the character reaches 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it regains [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="h3d191766ge187gb9e3g910fg170d6d300de3" version="1">Supernova Collapse</content>
   <content contentuid="ha31781e4ge807gcd48g772agbe84a7c593de" version="1">Enemy creatures within [1] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [2] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="1">Supernova</content>
   <content contentuid="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
-  <content contentuid="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="2">Solar Flare</content>
-  <content contentuid="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="1">When you succeed a &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;, you can use your reaction to deal [1] to the creature that forced the saving throw.</content>
+  <content contentuid="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="3">Cosmic Resilience</content>
+  <content contentuid="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="2">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
   <content contentuid="hbdf7eff4gb953g4207gc696ga38a814111bf" version="2">Solar Flare</content>
   <content contentuid="h56cb9e63ga069g91eag949fg6f449963fc3f" version="1">Deal [1] to the creature that forced the &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;.</content>
   <content contentuid="he25322ceg47fag624fgf631g24c197dd7b5f" version="1">%%% EMPTY</content>
@@ -27,8 +27,8 @@
   <content contentuid="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="2">Add a +[1] bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; if it would otherwise fail.</content>
   <content contentuid="h7ce0556cg60dfg2359gcdadg483191b84e09" version="1">Cosmic Guidance</content>
   <content contentuid="h1c45ccbdgab18gb7dfgb327gc77ae55ca73f" version="1">You gain &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt;. Additionally, whenever you make an &lt;LSTag Tooltip="Arcana"&gt;Arcana&lt;/LSTag&gt; check, you gain a bonus to the check equal to your Charisma modifier.</content>
-  <content contentuid="h0324f9dfg4740g19f7gd661ge82d24d07492" version="1">Starburst</content>
-  <content contentuid="h3e6b57b3g0f28ga1a5g6346gc67edc2188f3" version="1">The first time you deal damage to a creature, you can deal an additional [1].</content>
+  <content contentuid="h0324f9dfg4740g19f7gd661ge82d24d07492" version="2">Dire Omen</content>
+  <content contentuid="h3e6b57b3g0f28ga1a5g6346gc67edc2188f3" version="2">When you deal damage to a creature, you can force it to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, it is marked with a &lt;LSTag Type="Status" Tooltip="APO_DIRE_OMEN"&gt;Dire Omen&lt;/LSTag&gt;.</content>
   <content contentuid="h60e8ed21ge9e3g6952gd658gaff5f060e135" version="1">%%% EMPTY</content>
   <content contentuid="h4df3a4cdga271g04c0gfccdg57e443254ed6" version="1">Harness the Cosmos</content>
   <content contentuid="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="1">Become a living constellation, warping spacetime and wielding the power of the stars.</content>
@@ -36,4 +36,10 @@
   <content contentuid="hf2757cffgf13eg9645g6857g7d9504e91b65" version="2">Lucky Stars: Attack Roll</content>
   <content contentuid="hc4d85785ga679ge402gf519g33a1663e2f38" version="1">Add a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; if it would otherwise fail.</content>
   <content contentuid="he422d04fg933cg6db7ge223g39b050c39fa7" version="1">You can use this feature a number of times equal to your Charisma &lt;LSTag Tooltip="AbilityModifier"&gt;Modifier&lt;/LSTag&gt;, minimum of once. You regain all expended uses when you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;</content>
+  <content contentuid="he6d23176gbe99g8e08g6521g4ac38cc87693" version="1">%%% EMPTY</content>
+  <content contentuid="h34951751g4e75g4fc7gdafeg0660c7e3640e" version="1">Dire Omen</content>
+  <content contentuid="h7faf4e24g5acbgd2f5ga9b8gb61be17f47a2" version="1">Dire Omen</content>
+  <content contentuid="hc9b28c54gc01egf2acg7a9fga13211e3fa9a" version="1">Shedding dim light and cannot be Invisible. Affected entity will take [1] when it moves.</content>
+  <content contentuid="h6f20a1c1g14b7g8392g3b77g07fefd34ff96" version="1">Cosmic Resilience</content>
+  <content contentuid="h547291c6g1c87gaa54gb625gf44cf228f628" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
 </contentList>

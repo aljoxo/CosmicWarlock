@@ -1,6 +1,7 @@
 new entry "APO_SUPERNOVA_DOWNED"
 type "StatusData"
 data "StatusType" "DOWNED"
+using "DOWNED"
 data "DisplayName" "h4f064683gec48g65dege8b9g86efb1ed54fa;1"
 data "AnimationStart" "7e811df9-74e7-4515-bd02-7043164dbf33(STAT_Fallen_Peace_01_Start)"
 data "AnimationLoop" "d7b7cf53-fe71-4a23-8011-9675a6e1d902(STAT_Fallen_Peace_01_Loop)"

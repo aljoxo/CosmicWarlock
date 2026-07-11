@@ -8,6 +8,8 @@
         <field name="Using" type="BaseClassTableFieldDefinition" value="c64ba536-9a1a-4f17-b16e-94fd6c9b85cb" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="9" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf13d1272g741dgdb7dg44a0gec94fc42cb1f" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(APO_COSMIC_GUIDANCE, 100, 10);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CosmicGuidance" />
       </fields>
     </stat_object>
   </stat_objects>

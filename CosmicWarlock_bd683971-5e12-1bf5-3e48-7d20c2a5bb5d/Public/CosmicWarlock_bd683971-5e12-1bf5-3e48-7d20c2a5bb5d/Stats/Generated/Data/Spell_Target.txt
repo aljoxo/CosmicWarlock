@@ -2,6 +2,8 @@ new entry "Target_APO_CosmicGuidance"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Guidance"
+data "SpellProperties" "ApplyStatus(APO_COSMIC_GUIDANCE, 100, 10);"
 data "TargetRadius" "9"
+data "Icon" "Spell_CosmicGuidance"
 data "DisplayName" "hf13d1272g741dgdb7dg44a0gec94fc42cb1f;1"
 

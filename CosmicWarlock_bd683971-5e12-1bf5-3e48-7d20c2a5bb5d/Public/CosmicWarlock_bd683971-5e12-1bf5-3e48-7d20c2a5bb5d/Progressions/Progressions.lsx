@@ -7,6 +7,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_CosmicGuidance;APO_DireOmen"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(25c8558b-1ec3-4332-ac10-e19c899518bb,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(62d6bdd2-d565-416e-843c-1ff051e278d1,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
@@ -47,6 +48,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="6"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_LuckyStar"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(d0b874b1-6d16-40f6-8ee2-49eab10fee93,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
@@ -79,6 +81,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_StellarRemnant_Rebirth;APO_StellarRemnant_Resistance"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(75342813-b966-45de-a3e4-76c85146f440,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
@@ -111,6 +114,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="14"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_HarnessTheCosmos"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(75342813-b966-45de-a3e4-76c85146f440,0,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
@@ -165,14 +169,15 @@
                     <attribute id="UUID" type="guid" value="6f501648-59ff-4210-a4a0-08c57c862323"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
+                    <attribute id="IsMulticlass" type="bool" value="true"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Warlock"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnlockedWarlockSpellSlotLevel1"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
-                    <attribute id="UUID" type="guid" value="a7767dc5-e6ab-4e05-96fd-f0424256121c"/>
+                    <attribute id="UUID" type="guid" value="20015e25-8aa9-41bf-b959-aa587ba0aa27"/>
                     <children>
                         <node id="SubClasses">
                             <children>
@@ -196,15 +201,14 @@
                     </children>
                 </node>
                 <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
-                    <attribute id="IsMulticlass" type="bool" value="true"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(WarlockSpellSlot,1,1);ProficiencyBonus(SavingThrow,Wisdom);ProficiencyBonus(SavingThrow,Charisma);Proficiency(LightArmor);Proficiency(SimpleWeapons)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Warlock"/>
                     <attribute id="PassivesAdded" type="LSString" value="UnlockedWarlockSpellSlotLevel1"/>
                     <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="SelectSkills(675236ba-c3cc-44ec-a58b-0e46351c85bd,2);SelectSpells(f5c4af9c-5d8d-4526-9057-94a4b243cd40,2,0,,,,AlwaysPrepared);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
                     <attribute id="TableUUID" type="guid" value="a7a958f1-d858-4021-9fa7-cf87e7d71377"/>
-                    <attribute id="UUID" type="guid" value="20015e25-8aa9-41bf-b959-aa587ba0aa27"/>
+                    <attribute id="UUID" type="guid" value="a7767dc5-e6ab-4e05-96fd-f0424256121c"/>
                     <children>
                         <node id="SubClasses">
                             <children>

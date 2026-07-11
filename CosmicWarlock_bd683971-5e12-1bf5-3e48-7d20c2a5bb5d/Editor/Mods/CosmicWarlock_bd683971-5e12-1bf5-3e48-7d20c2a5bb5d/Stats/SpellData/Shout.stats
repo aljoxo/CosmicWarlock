@@ -5,6 +5,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="14581e0e-2e8d-4813-8652-050965dca996" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
       </fields>
     </stat_object>
   </stat_objects>

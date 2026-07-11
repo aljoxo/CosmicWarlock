@@ -101,10 +101,10 @@
                     <attribute id="Author" type="LSString" value="aljoxo"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSString" value="Draw Upon the Power of the Cosmos  When you choose this subclass, you might bind yourself to a primordial cosmic presence, an ancient entity hidden among the stars, or a remnant of a force that predates the mortal world."/>
-                    <attribute id="FileSize" type="uint64" value="3979191"/>
+                    <attribute id="FileSize" type="uint64" value="5765421"/>
                     <attribute id="Folder" type="LSString" value="CosmicWarlock_bd683971-5e12-1bf5-3e48-7d20c2a5bb5d"/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
-                    <attribute id="MD5" type="LSString" value="9962b3f4b1add8431a9723277c793d8f"/>
+                    <attribute id="MD5" type="LSString" value="0e5f0205f7433304e81a23f39a484843"/>
                     <attribute id="MenuLevelName" type="FixedString" value=""/>
                     <attribute id="Name" type="LSString" value="CosmicWarlock"/>
                     <attribute id="NumPlayers" type="uint8" value="4"/>
@@ -112,7 +112,7 @@
                     <attribute id="PublishHandle" type="uint64" value="0"/>
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="UUID" type="FixedString" value="bd683971-5e12-1bf5-3e48-7d20c2a5bb5d"/>
-                    <attribute id="Version64" type="int64" value="36028797018963970"/>
+                    <attribute id="Version64" type="int64" value="36028797018963971"/>
                     <children>
                         <node id="PublishVersion">
                             <attribute id="Version64" type="int64" value="144255927718626661"/>

@@ -1,4 +1,4 @@
-new entry "Projectile_APO_SUPERNOVA"
+new entry "Projectile_APO_Starburst_DeathExplosion"
 type "SpellData"
 data "SpellType" "Projectile"
 data "SpellSchool" "None"
@@ -10,6 +10,7 @@ data "SpellSuccess" "DealDamage(8d6,Radiant,Magical);ApplyStatus(BLINDED,100,2);
 data "SpellFail" "DealDamage(8d6/2,Radiant,Magical);"
 data "TargetConditions" "not Item() and not Self() and not Ally() and not Dead();"
 data "Trajectories" "f346b284-854e-4dd9-b87c-3938f5178265,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a "
+data "Icon" "Passive_Starburst"
 data "DisplayName" "h3d191766ge187gb9e3g910fg170d6d300de3;1"
 data "Description" "ha31781e4ge807gcd48g772agbe84a7c593de;1"
 data "DescriptionParams" "Distance(9);DealDamage(8d6,Radiant)"

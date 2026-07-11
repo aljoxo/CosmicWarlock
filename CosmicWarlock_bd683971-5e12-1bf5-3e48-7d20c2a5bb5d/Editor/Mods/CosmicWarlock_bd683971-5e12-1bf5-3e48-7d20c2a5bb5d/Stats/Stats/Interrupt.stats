@@ -15,10 +15,10 @@
         <field name="Properties" type="StringTableFieldDefinition" value="AdjustRoll(2d4);" />
         <field name="Cost" type="StringTableFieldDefinition" value="Interrupt_APO_LuckyStar:1;" />
         <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
-        <field name="EnableCondition" type="StringTableFieldDefinition" value="HasActionResource('Interrupt_APO_LuckyStar', 1, 0, false, false, context.Source) and not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />
+        <field name="EnableCondition" type="StringTableFieldDefinition" value="not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />
         <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="InterruptFlags" type="EnumerationListTableFieldDefinition" value="InterruptWhileInvisible" enumeration_type_name="InterruptFlagsList" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Passive_LuckyStar" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Interrupt_LuckyStar" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

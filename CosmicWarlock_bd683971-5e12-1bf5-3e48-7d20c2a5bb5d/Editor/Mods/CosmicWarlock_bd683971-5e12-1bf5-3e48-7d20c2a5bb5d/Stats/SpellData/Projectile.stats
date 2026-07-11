@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="172ff015-f6e0-4422-a448-427d795348b9" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_SUPERNOVA" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_Starburst_DeathExplosion" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
         <field name="TargetRadius" type="StringTableFieldDefinition" value="1" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
@@ -29,6 +29,7 @@
         <field name="ImpactEffect" type="GuidObjectTableFieldDefinition" value="28475871-7192-41e7-baa9-5bf4785fd24c" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Starburst" />
       </fields>
     </stat_object>
   </stat_objects>

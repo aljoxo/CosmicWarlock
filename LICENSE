@@ -1,21 +1,9 @@
-MIT License
+Copyright (c) 2026 aljoxo
 
-Copyright (c) 2025 xiphiasrex
+I. The mod's files (.txt, .lsx, .json, .lua) are licensed under the [MIT license](https://opensource.org/license/mit)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+II. All .png and .dds files (with the exception of those within the `ClassIcon PNG`, `ClassIcons`, and `ClassIcons/hotbar` folders) are derivative of Larian's from the base game of Baldur's Gate 3 and sourced from the [Baldur's Gate 3 wiki](https://bg3.wiki/). I claim no ownership over these files and permissions pertaining to them should be deferred to [Larian's Fan Content Policy](https://larian.com/fan-content-policy).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+III. The .png and .dds files within the `ClassIcon PNG`, `ClassIcons`, and `ClassIcons/hotbar` folders were created by [Hubble](https://hblepro.carrd.co/) for this mod. If you wish to use these files in your own mod, please ask me first.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+IV. The Subclass itself is a personal homebrew of mine and all permissions regarding that should be deferred to [Wizard of the Coast's Fan Content Policy](https://company.wizards.com/en/legal/fancontentpolicy).

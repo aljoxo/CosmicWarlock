@@ -13,23 +13,29 @@
         <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Radiant,Magical);ApplyStatus(BLINDED,100,2);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Radiant,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Item() and not Self() and not Ally() and not Dead();" />
-        <field name="Trajectories" type="StringTableFieldDefinition" value="f346b284-854e-4dd9-b87c-3938f5178265,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a " />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d191766ge187gb9e3g910fg170d6d300de3" version="1" />
+        <field name="Trajectories" type="StringTableFieldDefinition" value="f346b284-854e-4dd9-b87c-3938f5178265,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d191766ge187gb9e3g910fg170d6d300de3" version="2" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha31781e4ge807gcd48g772agbe84a7c593de" version="1" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(9);DealDamage(8d6,Radiant)" />
         <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3" />
         <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Damage_Radiant_Gen_L1to3_Loop" />
         <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_RadianceOfTheDawn" />
-        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;5ca5b155-fbc3-465e-ab24-55421c91bea7,,;7da4ad07-cfc9-4de0-a02c-7f1b07fac394,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;38cdb41c-2eec-4e03-bb31-83cff0346c35,,;85414f5f-b448-4dda-9370-1b6c4b38b561,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,," />
         <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Damage" enumeration_type_name="VerbalIntent" version="1" />
-        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;IsHarmful;RangeIgnoreVerticalThreshold" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsHarmful;RangeIgnoreVerticalThreshold;HasHighGroundRangeExtension" enumeration_type_name="SpellFlagList" version="1" />
         <field name="HitAnimationType" type="EnumerationTableFieldDefinition" value="MagicalDamage_External" enumeration_type_name="HitAnimationType" version="1" />
         <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
         <field name="RequirementConditions" type="StringTableFieldDefinition" value="HasStatus('APO_SUPERNOVA_DOWNED');" />
-        <field name="ImpactEffect" type="GuidObjectTableFieldDefinition" value="28475871-7192-41e7-baa9-5bf4785fd24c" />
         <field name="DamageType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Damage Type" version="1" />
         <field name="SpellSoundMagnitude" type="EnumerationTableFieldDefinition" value="Big" enumeration_type_name="SpellSoundMagnitude" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_Starburst" />
+        <field name="DeathType" type="EnumerationTableFieldDefinition" value="Radiant" enumeration_type_name="Death Type" version="1" />
+        <field name="ProjectileCount" type="StringTableFieldDefinition" value="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="9f632984-2fe6-463c-9cbf-4a927ee5dc5e" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="27d84519-fba4-4840-90b2-be116ee4f32f" />
+        <field name="HitEffect" type="GuidObjectTableFieldDefinition" value="3f463e65-07d8-4ece-92fb-0a82cb1d8678" />
+        <field name="TargetHitEffect" type="GuidObjectTableFieldDefinition" value="3f463e65-07d8-4ece-92fb-0a82cb1d8678" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="12c0e505-2b3a-4f31-bbb8-c6aa6d4b4977" />
       </fields>
     </stat_object>
   </stat_objects>

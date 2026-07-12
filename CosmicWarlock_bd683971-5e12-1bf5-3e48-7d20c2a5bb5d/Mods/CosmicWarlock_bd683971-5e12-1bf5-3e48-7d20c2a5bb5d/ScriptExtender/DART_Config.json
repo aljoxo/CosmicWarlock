@@ -1,0 +1,22 @@
+{
+    "SchemaVersion":1, 
+    "Disabled":false,
+    "Tags":[
+        {
+            "cdad1fc1-352b-4441-82f2-73d8433e42ea":{
+                "Source":"4958ca6b-65d2-4221-aeef-e7be94b1f43f",
+                "GrantTag":true,
+                "DisplayName":"hce289d3eg0f74g3538gda9agda40dd3df5ef",
+                "Description":"hd722320egae18gc626g1dcfgab1d85d49dcd",
+                "Blacklist":["SourceUUIDHere","CanAlsoDoTagUUIDs"],
+                "Whitelist":["CanAlsoDoDialogFileUUIDs","!OperatorsShouldGoAtTheFrontOfAUUID"],
+                "Dialog":{
+                    "h024458bfg0f21g46ebgbc6fg97444c4f3f73":"h5a0eef12g02f9ge79bga30bg86ee78763ed5",
+                    "h6894650fgad7fg49dbg9de3ge2d7e8d91dc4":"h33c98abcgf228g5853gc475ge57c5076cc62",
+                    "h9c41739bg037cg49cegb175g17f73ea4c7a0":"hd5f523adg761agcd68g4445gbccb00b49456",
+                    "h226864d3g3c2eg4741g997cg6c04eafed7ab":"hf6219014gf0f7ga2f1gf8d6g80889fb1cec1"
+                }
+            }
+        }
+    ]
+}

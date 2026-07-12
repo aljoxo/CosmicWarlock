@@ -1,0 +1,7 @@
+{
+    "RequiredVersion": 30,
+    "ModTable": "CosmicWarlock_bd683971-5e12-1bf5-3e48-7d20c2a5bb5d",
+    "FeatureFlags": [
+        "Lua"
+    ]
+}

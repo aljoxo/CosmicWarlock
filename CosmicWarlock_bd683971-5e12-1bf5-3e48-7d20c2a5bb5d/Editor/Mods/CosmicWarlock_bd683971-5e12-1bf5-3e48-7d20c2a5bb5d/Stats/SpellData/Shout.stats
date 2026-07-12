@@ -6,6 +6,113 @@
         <field name="UUID" type="IdTableFieldDefinition" value="14581e0e-2e8d-4813-8652-050965dca996" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(APO_HARNESS_THE_COSMOS,100,10);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc68d8dc1g5622g97c4g744dgda9d16bfe837" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbf786652g8ab0g0523ge24bg298810d21c95" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
+        <field name="TooltipPermanentWarnings" type="StringTableFieldDefinition" value="8f546748-1eff-463b-9ee2-6652575c4935" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Druid_WildShapeStars" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Druid_WildShapeStars" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Druid_WildShapeStars_Chalice" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Vocal_Component_Stop" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;APO_HarnessTheCosmos_Charge:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="55961aa3-e67e-4bcb-8ffb-c646b9c2801b,,;,,;2f3f127a-0d0d-4d63-8d5f-ea6514cc915a,,;3950c5a4-fe00-4b66-851a-f94ad3149456,,;d99f99b9-2b98-434c-8395-31a407ad2e9e,,;,,;a7a14d25-5005-41d3-90f3-27d7352ab71b,,;,,;,," />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="45fe0df3-305c-4626-ba87-871059176eaf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bba23245-a22a-41cc-a7a0-34840a54476e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3876051-4f68-4918-8240-2f33ffe1dc1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_Dismiss" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(APO_HARNESS_THE_COSMOS);" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h82d93d8cgaa61g254cg39e7gccc6d906422f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb582f013g1338gd444ge7c4g2bbaaf41a12b" version="1" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Action_Prepare_Druid_WildShapeStars" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Action_Loop_Druid_WildShapeStars" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_Druid_WildShapeStars_Chalice" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Vocal_Component_Stop" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f489d217-b699-4e8e-bf22-6ef539c5d65b,,;,,;4b43f4f6-b7b8-4567-a788-d51ff0230d2b,,;832f6e4e-ccc9-4985-9983-fc58f20fb4b2,,;f9414915-2da7-4f40-bcbd-90e956461246,,;,,;f2a62277-c87a-4ec7-b4f2-c3c37e6e30ae,,;,,;,," />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="45fe0df3-305c-4626-ba87-871059176eaf" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="bba23245-a22a-41cc-a7a0-34840a54476e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="66a6d620-2b23-45e2-acbe-b785382ed959" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_PactCost" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_APO_HarnessTheCosmos_PactCost_1;Shout_APO_HarnessTheCosmos_PactCost_2;Shout_APO_HarnessTheCosmos_PactCost_3;Shout_APO_HarnessTheCosmos_PactCost_4;Shout_APO_HarnessTheCosmos_PactCost_5;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(APO_HarnessTheCosmos_Charge,1,0);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8a96b0c3g20afg217cgc10dg581ba3d428b0" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h022e439ag27bbge070g229dga659581c96fb" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_BindPactWeapon" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="af787096-8656-4495-a6ce-cbd376578069" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b7fb4cd6-971f-44c0-9447-378092d36b63" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e62091e2-b785-41d2-9985-349c95c42ed2" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_PactCost_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="66a6d620-2b23-45e2-acbe-b785382ed959" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_APO_HarnessTheCosmos_PactCost" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="-;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="af787096-8656-4495-a6ce-cbd376578069" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b7fb4cd6-971f-44c0-9447-378092d36b63" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5acb7509-8aa9-4ea1-9f68-3f163c2227f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_PactCost_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e62091e2-b785-41d2-9985-349c95c42ed2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:2;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="77f9b6ad-3fcf-476e-a9ea-eace9075c9cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_PactCost_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e62091e2-b785-41d2-9985-349c95c42ed2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="477b9db5-8c33-4447-8322-4eef8a48ff85" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_PactCost_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e62091e2-b785-41d2-9985-349c95c42ed2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78d6695c-fdfa-44e2-851d-722f74e26f67" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos_PactCost_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e62091e2-b785-41d2-9985-349c95c42ed2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:5;" />
       </fields>
     </stat_object>
   </stat_objects>

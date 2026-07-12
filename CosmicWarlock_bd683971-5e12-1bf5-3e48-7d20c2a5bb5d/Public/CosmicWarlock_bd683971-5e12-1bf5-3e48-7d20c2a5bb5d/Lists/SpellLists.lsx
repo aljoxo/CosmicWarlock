@@ -16,7 +16,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 3"/>
-                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container"/>
+                    <attribute id="Spells" type="LSString" value="Target_Daylight_Container;Projectile_MinuteMeteors;Shout_MelfsMinuteMeteors"/>
                     <attribute id="UUID" type="guid" value="fddbf5f5-b74f-422f-8d58-6cf0cab777ea"/>
                 </node>
                 <node id="SpellList">
@@ -26,27 +26,32 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos AlwaysPrepared SLevel 5"/>
-                    <attribute id="Spells" type="LSString" value="Shout_DispelEvilAndGood;Target_FlameStrike"/>
+                    <attribute id="Spells" type="LSString" value="Target_FlameStrike;Target_FarStep;Shout_FarStep"/>
                     <attribute id="UUID" type="guid" value="4ea77ce1-4c71-425b-a2bc-562ac0764710"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 1"/>
+                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="25c8558b-1ec3-4332-ac10-e19c899518bb"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 2"/>
+                    <attribute id="Spells" type="LSString" value="Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_Moonbeam;Projectile_RayOfEnfeeblement;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="7e99c531-f460-43fd-a445-e5bb5bf5b59e"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 3"/>
+                    <attribute id="Spells" type="LSString" value="Target_Counterspell;Target_Daylight_Container;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Projectile_MinuteMeteors;Shout_MelfsMinuteMeteors;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_Moonbeam;Projectile_RayOfEnfeeblement;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="d0b874b1-6d16-40f6-8ee2-49eab10fee93"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 4"/>
+                    <attribute id="Spells" type="LSString" value="Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Shout_FireShield;Target_Invisibility_Greater;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Projectile_MinuteMeteors;Shout_MelfsMinuteMeteors;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_Moonbeam;Projectile_RayOfEnfeeblement;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="a987f9d2-52e5-483c-ab9c-bd9bf977b432"/>
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Warlock Cosmos SLevel 5"/>
+                    <attribute id="Spells" type="LSString" value="Target_FarStep;Shout_FarStep;Target_FlameStrike;Target_HoldMonster;Target_Banishment;Target_Blight;Teleportation_DimensionDoor;Shout_FireShield;Target_Invisibility_Greater;Target_Counterspell;Target_Daylight_Container;Zone_Fear;Target_Fly;Target_GaseousForm;Target_HungerOfHadar;Target_HypnoticPattern;Projectile_MinuteMeteors;Shout_MelfsMinuteMeteors;Target_RemoveCurse;Target_VampiricTouch;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_Enthrall;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Target_Moonbeam;Projectile_RayOfEnfeeblement;Shout_SeeInvisibility;Shout_ShadowBlade_Class;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Shout_ExpeditiousRetreat;Target_FaerieFire;Projectile_GuidingBolt;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
                     <attribute id="UUID" type="guid" value="75342813-b966-45de-a3e4-76c85146f440"/>
                 </node>
                 <node id="SpellList">

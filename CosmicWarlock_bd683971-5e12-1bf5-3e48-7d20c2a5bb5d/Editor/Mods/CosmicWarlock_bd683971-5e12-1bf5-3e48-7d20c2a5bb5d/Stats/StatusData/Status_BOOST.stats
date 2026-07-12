@@ -7,6 +7,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="APO_COSMIC_GUIDANCE" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="e17de6ff-b348-40e7-a347-1c6e26f18bcf" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1e68cdf3g316eg5cbbg3108g54e8041445d6" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_CosmicGuidance" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -18,11 +19,11 @@
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7faf4e24g5acbgd2f5ga9b8gb61be17f47a2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9b28c54gc01egf2acg7a9fga13211e3fa9a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Radiant)" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Invisible);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Invisible);GameplayLight(1.5,false,0.1);" />
         <field name="Passives" type="StringTableFieldDefinition" value="APO_DireOmen_Movement;APO_DireOmen_MovementSpell;" />
-        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="9e863d8f-a1f5-4f68-88ca-ddb56828c8d8" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="dece3d7b-8e62-49b8-9b49-1bc36b9beda2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
       </fields>
     </stat_object>
@@ -31,10 +32,10 @@
         <field name="UUID" type="IdTableFieldDefinition" value="fae16fb1-58c6-4653-9fe4-3ff557fb5a2f" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_DIRE_OMEN_DAMAGE" />
         <field name="StackId" type="StringTableFieldDefinition" value="APO_DIRE_OMEN_DAMAGE" />
-        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant,Magical);RemoveStatus(SELF,APO_DIRE_OMEN)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="DealDamage(1d6,Radiant,Magical);RemoveStatus(SELF,APO_DIRE_OMEN)" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h25d25eb2g48bdg9d59gaef3g9d4893636ee0" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfbfaaef7gd612g80f9g50a4g520598b465eb" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant)" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Radiant)" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
         <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="MultiplyEffectsByDuration" enumeration_type_name="StatusPropertyFlags" version="1" />
@@ -75,6 +76,87 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Radiant,Resistant);" />
         <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96492b68-28a7-488d-bab9-f281c30636d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HARNESS_THE_COSMOS" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he1fccfdbg2667gbe69g91edg9b03f3164f47" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8f658802g22c0g7966g8fdag966dc33f46f5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(6)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_HARNESS_THE_COSMOS" />
+        <field name="AuraRadius" type="IntegerTableFieldDefinition" value="6" />
+        <field name="AuraStatuses" type="StringTableFieldDefinition" value="TARGET:IF(Enemy()):ApplyStatus(APO_HARNESS_THE_COSMOS_START,100,-1);TARGET:IF(Enemy()):ApplyStatus(DIFFICULT_TERRAIN,100,-1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_APO_HarnessTheCosmos_Dismiss);" />
+        <field name="Passives" type="StringTableFieldDefinition" value="APO_DegeneratingSingularity;APO_StarTouched;APO_Starborn;" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasStatus('SG_Incapacitated')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="20fc4cfd-0225-48ee-b408-680b0eb10704" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6fa60e59-28fc-4281-808e-0d4dbf6b44e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HARNESS_THE_COSMOS_START" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3fc7538bg12e5g7b8dg37a9gdb0e6f354176" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6560e66ag3d53g624dg50acgae8bc8b55eed" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_DIRE_OMEN,100,1)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02326c00-82ae-404f-a1e8-abaed18a183f" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_HARNESS_THE_COSMOS_RESTORE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_HARNESS_THE_COSMOS_RESTORE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_APO_HarnessTheCosmos_PactCost,,e9127b70-22b7-42a1-b172-d02f828f260a);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SpellId('Shout_APO_HarnessTheCosmos_PactCost') or HasActionResource('APO_HarnessTheCosmos_Charge',1,0,false,false,context.Source);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a93638cb-d268-498f-abb2-620ab719559d" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_COSMIC_RESTORE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_COSMIC_RESTORE" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Ignore" enumeration_type_name="StatusStackType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableInteractions;DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(Interrupt_APO_LuckyStar,100%,0);RestoreResource(APO_HarnessTheCosmos_Charge,100%,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1b968aa6-d417-4a94-9a3f-2fddb777b7a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="DART_DIALOGUE_1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5a0eef12g02f9ge79bga30bg86ee78763ed5" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1e9a3fc-eae4-41cd-9fed-bbf3202682c1" />
+        <field name="Name" type="NameTableFieldDefinition" value="DART_DIALOGUE_2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h33c98abcgf228g5853gc475ge57c5076cc62" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74e2a01b-03c9-4f0f-88a0-46b7c0b033fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="DART_DIALOGUE_3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd5f523adg761agcd68g4445gbccb00b49456" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f536ace5-ec71-4c57-ad99-43dee68572fc" />
+        <field name="Name" type="NameTableFieldDefinition" value="DART_DIALOGUE_4" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6219014gf0f7ga2f1gf8d6g80889fb1cec1" version="1" />
       </fields>
     </stat_object>
   </stat_objects>

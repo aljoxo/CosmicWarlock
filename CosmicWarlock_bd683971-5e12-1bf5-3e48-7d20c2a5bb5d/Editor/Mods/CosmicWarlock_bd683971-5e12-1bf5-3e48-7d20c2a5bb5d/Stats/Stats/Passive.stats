@@ -52,10 +52,21 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9dadf34g33bdg6edfgb318g342736d511d4" version="3" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_LuckyStar_SavingThrow);UnlockInterrupt(APO_LuckyStar_Attack);IF(APO_CharismaGreatherThanOrEqual(0)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(14)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(16)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(18)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(20)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(22)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(24)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(26)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(28)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(30)):ActionResource(Interrupt_APO_LuckyStar,1,0);" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_LuckyStar_SavingThrow);UnlockInterrupt(APO_LuckyStar_Attack);" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d4" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he422d04fg933cg6db7ge223g39b050c39fa7" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_LuckyStar" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7b27614c-e5b2-4e44-8c70-1b65845c3b3b" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_LuckyStar_Unlock" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(APO_CharismaGreatherThanOrEqual(0)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(14)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(16)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(18)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(20)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(22)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(24)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(26)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(28)):ActionResource(Interrupt_APO_LuckyStar,1,0);IF(APO_CharismaGreatherThanOrEqual(30)):ActionResource(Interrupt_APO_LuckyStar,1,0);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('ALCH_POTION_REST_SLEEP_GREATER_RESTORATION');" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,APO_COSMIC_RESTORE,100,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -87,11 +98,46 @@
         <field name="UUID" type="IdTableFieldDefinition" value="4bc8430f-949f-48e5-af4d-692496895472" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_HarnessTheCosmos" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h4df3a4cdga271g04c0gfccdg57e443254ed6" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="2" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="ha53c5132g254dgb645g4aacg4bfa355f78ad" version="1" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_APO_HarnessTheCosmos);ActionResource(APO_HarnessTheCosmos_Charge,1,0);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasActionResource('APO_HarnessTheCosmos_Charge',1,0,false,false,context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,APO_HARNESS_THE_COSMOS_RESTORE,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="97d06507-c7ee-46c6-8427-329f883bc8a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_DegeneratingSingularity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb0b75c9g9031g023eg53d0g6b8b5a2610bf" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9b5d9efg14a1g65fbga653ge28c61c85869" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="04d77908-1575-4b94-ab09-112b71402c8c" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarTouched" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h004e3b25ga177gb7d1ge4b2gfaa13f1b6d26" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83308effge538gd4bfg5507ge96e8a613b87" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Radiant,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="103bc1de-f7ec-4575-b348-bc5f307a2bb3" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_Starborn" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he934cf95g5618g59a6gbb8cg300ef664eaa1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h36f88a9dga5bbgb85bg113bg1cc52a0b7cfb" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold, Resistant);Resistance(Fire, Resistant);Resistance(Force, Resistant);Resistance(Radiant, Immune);" />
       </fields>
     </stat_object>
   </stat_objects>

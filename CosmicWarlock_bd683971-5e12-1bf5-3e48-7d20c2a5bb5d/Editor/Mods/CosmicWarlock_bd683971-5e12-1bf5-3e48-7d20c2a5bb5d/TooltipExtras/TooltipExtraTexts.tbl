@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <stats stat_object_definition_id="e695a80c-766a-436d-90e8-de68031ffd1e">
-  <stat_objects />
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8f546748-1eff-463b-9ee2-6652575c4935" />
+        <field name="Text" type="TranslatedStringTableFieldDefinition" handle="he19f1de2g09a6gdb04g66c7g8836b3f77b76" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
 </stats>

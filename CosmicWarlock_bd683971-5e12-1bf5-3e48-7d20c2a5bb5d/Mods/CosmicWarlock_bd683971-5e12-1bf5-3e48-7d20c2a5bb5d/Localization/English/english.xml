@@ -11,7 +11,7 @@
   <content contentuid="h4f064683gec48g65dege8b9g86efb1ed54fa" version="2">Starburst</content>
   <content contentuid="h5634eddbgb257g9861g755fg626b4e053f0a" version="2">Starburst</content>
   <content contentuid="h7ce5272fg16fbgcaf9gb454g26058cf969f3" version="3">If the character reaches 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, it regains [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
-  <content contentuid="h3d191766ge187gb9e3g910fg170d6d300de3" version="1">Supernova Collapse</content>
+  <content contentuid="h3d191766ge187gb9e3g910fg170d6d300de3" version="2">Starburst</content>
   <content contentuid="ha31781e4ge807gcd48g772agbe84a7c593de" version="1">Enemy creatures within [1] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [2] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="2">Starburst</content>
   <content contentuid="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
@@ -31,7 +31,7 @@
   <content contentuid="h3e6b57b3g0f28ga1a5g6346gc67edc2188f3" version="2">When you deal damage to a creature, you can force it to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, it is marked with a &lt;LSTag Type="Status" Tooltip="APO_DIRE_OMEN"&gt;Dire Omen&lt;/LSTag&gt;.</content>
   <content contentuid="h60e8ed21ge9e3g6952gd658gaff5f060e135" version="1">%%% EMPTY</content>
   <content contentuid="h4df3a4cdga271g04c0gfccdg57e443254ed6" version="1">Harness the Cosmos</content>
-  <content contentuid="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="1">Become a living constellation, warping spacetime and wielding the power of the stars.</content>
+  <content contentuid="hfda7c387gbfe6g229fg2a5dgeda2b728367f" version="2">Become a &lt;LSTag Type="Spell" Tooltip="Shout_APO_HarnessTheCosmos"&gt;living constellation&lt;/LSTag&gt;, warping spacetime and wielding the power of the stars.</content>
   <content contentuid="ha53c5132g254dgb645g4aacg4bfa355f78ad" version="1">Once you use this feature, you can't use it again until you finish a &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; unless you expend a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slot&lt;/LSTag&gt; to restore your use of it.</content>
   <content contentuid="hf2757cffgf13eg9645g6857g7d9504e91b65" version="2">Lucky Stars: Attack Roll</content>
   <content contentuid="hc4d85785ga679ge402gf519g33a1663e2f38" version="1">Add a +[1] bonus to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; if it would otherwise fail.</content>
@@ -45,4 +45,25 @@
   <content contentuid="hff8d3f58g0d0fg67d4g5f67g7c26fb6535f9" version="2">The stars subtly guide your fate, turning moments of failure into opportunities for success. </content>
   <content contentuid="h25d25eb2g48bdg9d59gaef3g9d4893636ee0" version="1">Dire Omen</content>
   <content contentuid="hfbfaaef7gd612g80f9g50a4g520598b465eb" version="1">Takes [1].</content>
+  <content contentuid="hc68d8dc1g5622g97c4g744dgda9d16bfe837" version="1">Harness the Cosmos</content>
+  <content contentuid="hbf786652g8ab0g0523ge24bg298810d21c95" version="2">Spells you cast and attacks you make ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.&lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold, Fire, and Force damage and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Radiant damage.&lt;br&gt;&lt;br&gt;Enemies within [1] of you treat the area as &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="he19f1de2g09a6gdb04g66c7g8836b3f77b76" version="1">This state ends early if you are &lt;LSTag Type="Status" Tooltip="INCAPACITATED"&gt;Incapacitated&lt;/LSTag&gt;, you die, or you dismiss it.</content>
+  <content contentuid="h82d93d8cgaa61g254cg39e7gccc6d906422f" version="1">Dismiss Harness the Cosmos</content>
+  <content contentuid="hb582f013g1338gd444ge7c4g2bbaaf41a12b" version="1">Dismiss your Harness the Cosmos and change back to your original form.</content>
+  <content contentuid="h8a96b0c3g20afg217cgc10dg581ba3d428b0" version="1">Harness the Cosmos Restoration</content>
+  <content contentuid="h022e439ag27bbge070g229dga659581c96fb" version="1">Expend one of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slots&lt;/LSTag&gt; to restore your use of &lt;LSTag Type="Spell" Tooltip="Shout_APO_HarnessTheCosmos"&gt;Harness the Cosmos&lt;/LSTag&gt;.</content>
+  <content contentuid="he1fccfdbg2667gbe69g91edg9b03f3164f47" version="1">Harness the Cosmos</content>
+  <content contentuid="hdb0b75c9g9031g023eg53d0g6b8b5a2610bf" version="1">Degenerating Singularity</content>
+  <content contentuid="hd9b5d9efg14a1g65fbga653ge28c61c85869" version="1">Enemies within [1] of you treat the area as &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="h004e3b25ga177gb7d1ge4b2gfaa13f1b6d26" version="1">Star Touched</content>
+  <content contentuid="h83308effge538gd4bfg5507ge96e8a613b87" version="1">Spells you cast and attacks you make ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
+  <content contentuid="he934cf95g5618g59a6gbb8cg300ef664eaa1" version="1">Starborn</content>
+  <content contentuid="h36f88a9dga5bbgb85bg113bg1cc52a0b7cfb" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold, Fire, and Force damage and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Radiant damage.</content>
+  <content contentuid="h8f658802g22c0g7966g8fdag966dc33f46f5" version="1">Spells you cast and attacks you make ignore &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.&lt;br&gt;&lt;br&gt;You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold, Fire, and Force damage and &lt;LSTag Tooltip="Immune"&gt;Immunity&lt;/LSTag&gt; to Radiant damage.&lt;br&gt;&lt;br&gt;Enemies within [1] of you treat the area as &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;Difficult Terrain&lt;/LSTag&gt;.</content>
+  <content contentuid="h3fc7538bg12e5g7b8dg37a9gdb0e6f354176" version="1">Harness the Cosmos</content>
+  <content contentuid="h6560e66ag3d53g624dg50acgae8bc8b55eed" version="1">In the presence of a living constellation, marked with a &lt;LSTag Type="Status" Tooltip="APO_DIRE_OMEN"&gt;Dire Omen&lt;/LSTag&gt;.</content>
+  <content contentuid="h5a0eef12g02f9ge79bga30bg86ee78763ed5" version="1">So, if a certain warlock sought a more powerful patron - perhaps Tharizdun himself, you might help with that?</content>
+  <content contentuid="h33c98abcgf228g5853gc475ge57c5076cc62" version="1">I'm sick with a deep malaise, one that came from a place among the stars.</content>
+  <content contentuid="hd5f523adg761agcd68g4445gbccb00b49456" version="1">I am the favoured vessel of some primordial, cosmic presence.</content>
+  <content contentuid="hf6219014gf0f7ga2f1gf8d6g80889fb1cec1" version="1">&lt;i&gt;Entreat your patron - ask it to lend the tadpole its cosmic power.&lt;/i&gt;</content>
 </contentList>

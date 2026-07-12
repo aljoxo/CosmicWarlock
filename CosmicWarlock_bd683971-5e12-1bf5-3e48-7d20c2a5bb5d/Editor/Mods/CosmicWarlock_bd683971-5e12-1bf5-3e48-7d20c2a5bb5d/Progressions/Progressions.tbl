@@ -10,7 +10,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(25c8558b-1ec3-4332-ac10-e19c899518bb,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(62d6bdd2-d565-416e-843c-1ff051e278d1,,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_CosmicGuidance;APO_DireOmen" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_CosmicGuidance;APO_DireOmen;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -66,7 +66,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="6" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(d0b874b1-6d16-40f6-8ee2-49eab10fee93,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_LuckyStar" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_LuckyStar;APO_LuckyStar_Unlock" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -197,3 +197,6 @@ cython_debug/
 *.7z
 *.zip
 *.rar
+Image1.png
+Image2.png
+Thumbnail.png

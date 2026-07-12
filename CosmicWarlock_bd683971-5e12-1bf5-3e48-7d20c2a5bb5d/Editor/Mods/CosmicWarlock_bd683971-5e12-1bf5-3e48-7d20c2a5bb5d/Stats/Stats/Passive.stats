@@ -7,7 +7,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="APO_CosmicGuidance" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7ce0556cg60dfg2359gcdadg483191b84e09" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1c45ccbdgab18gb7dfgb327gc77ae55ca73f" version="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Skill(Arcana,Cause.CharismaModifier);ProficiencyBonus(Skill,Arcana);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_CosmicGuidance" />
       </fields>

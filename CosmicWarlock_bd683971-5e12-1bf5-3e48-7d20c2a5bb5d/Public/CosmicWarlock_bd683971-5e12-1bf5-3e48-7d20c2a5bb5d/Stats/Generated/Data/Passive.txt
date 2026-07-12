@@ -3,7 +3,7 @@ type "PassiveData"
 data "DisplayName" "h7ce0556cg60dfg2359gcdadg483191b84e09;1"
 data "Description" "h1c45ccbdgab18gb7dfgb327gc77ae55ca73f;1"
 data "Icon" "Passive_CosmicGuidance"
-data "Properties" "IsHidden;ForceShowInCC"
+data "Properties" "Highlighted;ForceShowInCC"
 data "Boosts" "Skill(Arcana,Cause.CharismaModifier);ProficiencyBonus(Skill,Arcana);"
 
 new entry "APO_DireOmen"

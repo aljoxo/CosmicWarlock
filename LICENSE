@@ -1,9 +1,25 @@
 Copyright (c) 2026 aljoxo
 
-I. The mod's files (.txt, .lsx, .json, .lua) are licensed under the [MIT license](https://opensource.org/license/mit)
+I. Source Code  
+Unless otherwise noted, all source files included with this mod, including but not limited to .txt, .lsx, .json, and .lua files, are licensed under the MIT License. (https://opensource.org/license/mit)
 
-II. All .png and .dds files (with the exception of those within the `ClassIcon PNG`, `ClassIcons`, and `ClassIcons/hotbar` folders) are derivative of Larian's from the base game of Baldur's Gate 3 and sourced from the [Baldur's Gate 3 wiki](https://bg3.wiki/). I claim no ownership over these files and permissions pertaining to them should be deferred to [Larian's Fan Content Policy](https://larian.com/fan-content-policy).
+II. Game-Derived Assets  
+All .png and .dds files, except those located in the ClassIcon PNG, ClassIcons, and ClassIcons/hotbar directories, are derivative works based on assets from Baldur's Gate 3. These files were sourced from the Baldur's Gate 3 Wiki and remain the intellectual property of Larian Studios. No ownership is claimed over these assets.
 
-III. The .png and .dds files within the `ClassIcon PNG`, `ClassIcons`, and `ClassIcons/hotbar` folders were created by [Hubble](https://hblepro.carrd.co/) for this mod. If you wish to use these files in your own mod, please ask me first.
+Any use, redistribution, or modification of these files is subject to Larian Studios' Fan Content Policy. (https://larian.com/fan-content-policy)
 
-IV. The Subclass itself is a personal homebrew of mine and all permissions regarding that should be deferred to [Wizard of the Coast's Fan Content Policy](https://company.wizards.com/en/legal/fancontentpolicy).
+III. Original Class Icons
+The .png and .dds files located in the following directories:
+
+- ClassIcon PNG
+- ClassIcons
+- ClassIcons/hotbar
+
+were created by Hubble specifically for this mod and are not covered by the MIT License.
+
+These assets may not be reused, redistributed, or incorporated into other projects without prior permission from the mod author.
+
+IV. Addendum
+The subclass design, mechanics, and associated creative content are original homebrew material created by the mod author. They are inspired by and intended for use with Wizards of the Coast's intellectual property and are distributed in accordance with Wizards of the Coast's Fan Content Policy.
+
+Any reuse or derivative works involving the subclass should likewise comply with Wizards of the Coast's Fan Content Policy. (https://company.wizards.com/en/legal/fancontentpolicy)

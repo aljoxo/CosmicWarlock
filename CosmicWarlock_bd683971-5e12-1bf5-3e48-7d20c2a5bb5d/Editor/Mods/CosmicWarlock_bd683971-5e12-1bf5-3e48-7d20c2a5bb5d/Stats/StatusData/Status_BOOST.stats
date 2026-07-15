@@ -15,16 +15,19 @@
         <field name="UUID" type="IdTableFieldDefinition" value="c6b0e67b-9c2f-4179-b55e-b589482e1905" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_DIRE_OMEN" />
         <field name="StackId" type="StringTableFieldDefinition" value="APO_DIRE_OMEN" />
-        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="MultiplyEffectsByDuration" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="TickingWithSource" enumeration_type_name="StatusPropertyFlags" version="1" />
         <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7faf4e24g5acbgd2f5ga9b8gb61be17f47a2" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc9b28c54gc01egf2acg7a9fga13211e3fa9a" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d6,Radiant)" />
-        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(Cause.CharismaModifier,Radiant)" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(SG_Invisible);GameplayLight(1.5,false,0.1);" />
-        <field name="Passives" type="StringTableFieldDefinition" value="APO_DireOmen_Movement;APO_DireOmen_MovementSpell;" />
         <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="dece3d7b-8e62-49b8-9b49-1bc36b9beda2" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="IsStatusEvent(StatusEvent.OnMove) or (IsStatusEvent(StatusEvent.OnSpellCast) and SpellCategoryIs(SpellCategory.Jump))" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnMove;OnSpellCast" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="RemoveStatus(APO_DIRE_OMEN)" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(RemoveCause(StatusRemoveCause.Condition)):DealDamage(Cause.CharismaModifier, Radiant, Magical);IF(RemoveCause(StatusRemoveCause.Condition)):ApplyStatus(APO_DIRE_OMEN_IMMUNITY,100,0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

@@ -20,13 +20,6 @@
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="UUID" type="guid" value="22bebf66-464b-4611-a6ab-af4cf92d5586"/>
                 </node>
-                <node id="ActionResourceDefinition">
-                    <attribute id="DisplayName" type="TranslatedString" handle="h8691594fg7106gc1b3g8bb9gfb93e9270009" version="1"/>
-                    <attribute id="IsHidden" type="bool" value="true"/>
-                    <attribute id="Name" type="FixedString" value="Interrupt_APO_DireOmen"/>
-                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
-                    <attribute id="UUID" type="guid" value="029fe549-6bee-4785-ae45-a65434b88ed3"/>
-                </node>
             </children>
         </node>
     </region>

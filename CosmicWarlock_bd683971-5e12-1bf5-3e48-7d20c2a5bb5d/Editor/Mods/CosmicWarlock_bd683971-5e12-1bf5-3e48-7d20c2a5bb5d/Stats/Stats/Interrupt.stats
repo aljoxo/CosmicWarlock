@@ -50,27 +50,5 @@
         <field name="InterruptFlags" type="EnumerationListTableFieldDefinition" value="InterruptWhileInvisible" enumeration_type_name="InterruptFlagsList" version="1" />
       </fields>
     </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="0608bec2-6d76-4167-880a-fe3d803f415f" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_DireOmen" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha02c8361ga042ga104gd8b8gb40ea35d7e68" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1d487619g16b8g8612g9f5fg93490b8810ae" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
-        <field name="InterruptContext" type="EnumerationListTableFieldDefinition" value="OnCastHit" enumeration_type_name="InterruptContext" version="1" />
-        <field name="InterruptContextScope" type="EnumerationListTableFieldDefinition" value="Self" enumeration_type_name="InterruptContextScope" version="1" />
-        <field name="Container" type="StringTableFieldDefinition" value="YesNoDecision" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsAbleToReact(context.Observer) and Self(context.Source,context.Observer) and IsAttack() and IsHit() and not IsKillingBlow() and not AnyEntityIsItem();" />
-        <field name="Roll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Strength, SourceSpellDC(10,context.Observer,Ability.Charisma))" />
-        <field name="Success" type="StringTableFieldDefinition" value="ApplyStatus(OBSERVER_TARGET,APO_DIRE_OMEN,100,1);" />
-        <field name="Cost" type="StringTableFieldDefinition" value="APO_DireOmen_Charge:1;" />
-        <field name="InterruptDefaultValue" type="EnumerationListTableFieldDefinition" value="Ask;Enabled" enumeration_type_name="InterruptDefaultValue" version="1" />
-        <field name="EnableCondition" type="StringTableFieldDefinition" value="not (HasStatus('SG_Polymorph_BeastShape') or Tagged('MINDFLAYER') or Tagged('SLAYER') or Tagged('MYRMIDON_AIR') or Tagged('MYRMIDON_EARTH') or Tagged('MYRMIDON_FIRE') or Tagged('MYRMIDON_WATER'));" />
-        <field name="EnableContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="APO_DIRE_OMEN" />
-        <field name="InterruptFlags" type="EnumerationListTableFieldDefinition" value="InterruptWhileInvisible" enumeration_type_name="InterruptFlagsList" version="1" />
-      </fields>
-    </stat_object>
   </stat_objects>
 </stats>

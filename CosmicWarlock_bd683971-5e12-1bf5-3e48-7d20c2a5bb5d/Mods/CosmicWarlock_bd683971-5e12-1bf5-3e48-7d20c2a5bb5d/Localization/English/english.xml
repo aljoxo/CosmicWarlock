@@ -66,7 +66,4 @@
   <content contentuid="h33c98abcgf228g5853gc475ge57c5076cc62" version="1">I'm sick with a deep malaise, one that came from a place among the stars.</content>
   <content contentuid="hd5f523adg761agcd68g4445gbccb00b49456" version="1">I am the favoured vessel of some primordial, cosmic presence.</content>
   <content contentuid="hf6219014gf0f7ga2f1gf8d6g80889fb1cec1" version="1">&lt;i&gt;Entreat your patron - ask it to lend the tadpole its cosmic power.&lt;/i&gt;</content>
-  <content contentuid="h8691594fg7106gc1b3g8bb9gfb93e9270009" version="1">%%% EMPTY</content>
-  <content contentuid="ha02c8361ga042ga104gd8b8gb40ea35d7e68" version="1">Dire Omen</content>
-  <content contentuid="h1d487619g16b8g8612g9f5fg93490b8810ae" version="1">Force the target to make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, it is marked with a &lt;LSTag Type="Status" Tooltip="APO_DIRE_OMEN"&gt;Dire Omen&lt;/LSTag&gt;.</content>
 </contentList>

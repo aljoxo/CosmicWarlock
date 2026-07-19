@@ -7,7 +7,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="APO_CosmicGuidance;APO_DireOmen;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_CosmicGuidance;APO_DireOmen_2"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(25c8558b-1ec3-4332-ac10-e19c899518bb,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(62d6bdd2-d565-416e-843c-1ff051e278d1,,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>

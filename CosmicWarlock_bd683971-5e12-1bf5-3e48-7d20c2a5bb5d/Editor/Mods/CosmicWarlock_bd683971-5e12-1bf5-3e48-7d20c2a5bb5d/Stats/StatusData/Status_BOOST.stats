@@ -162,5 +162,98 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf6219014gf0f7ga2f1gf8d6g80889fb1cec1" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="364caf00-7a63-43ea-8930-ada4b83c1ebd" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARLIT_MARK" />
+        <field name="StackId" type="StringTableFieldDefinition" value="INVISIBILITY" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_Light" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68d3c9b3ge52eg6888g7b69g9cc046bc67e6" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbde11454g3962g8096g70d7g2a0a3c1732c8" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="GameplayLight(3,false,0.1);StatusImmunity(SG_Invisible);" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="dece3d7b-8e62-49b8-9b49-1bc36b9beda2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_StarlitMark" />
+        <field name="SoundLoop" type="StringTableFieldDefinition" value="Spell_Status_FaerieFire_MO" />
+        <field name="SoundStop" type="StringTableFieldDefinition" value="Spell_Status_FaerieFire_MO_Stop" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="10" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="InitiateCombat;BringIntoCombat" enumeration_type_name="StatusPropertyFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71d720da-3d75-4543-972e-60159fbb6242" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARLIT_MARK_ADV" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h68f75776g6b30g47e8g3211g176371420f02" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6b58a01bgb82cg41a0g4aadgea3202c9842f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="HasPassive('APO_StarlitMark', context.Source)" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnAttacked" enumeration_type_name="StatusEvent" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19e342b5-f0b5-4070-af9d-f88d59c2aee2" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARFIRE_WOMB" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6af91a14gb3abgaafbg280ag302891075c89" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="he7c9dddege67fg966agc0e1g4a13b58369aa" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Cause.ClassLevel(Warlock)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_StarfireWomb" />
+        <field name="StackId" type="StringTableFieldDefinition" value="TEMPORARY_HP" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="TemporaryHP(ClassLevel(Warlock));" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="not HasTemporaryHP()" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f8fef33-0738-4bdf-8b76-5be8c01a03de" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARFIRE_WOMB_TECHNICAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hed27b753g3fb2g7629gd0b3gef9c566c8f3c" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Tactical" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_STARFIRE_WOMB_TECHNICAL" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="TickFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_STARFIRE_WOMB_ACTIVE,100,0)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable;IgnoreResting" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cbce1c63-88c8-4362-bd4a-57212a600218" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARFIRE_WOMB_ACTIVE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h008df45eg838cge9ecgd053gbfd3733349a9" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Tactical" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_STARFIRE_WOMB_ACTIVE" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" value="Overwrite" enumeration_type_name="StatusStackType" version="1" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="303d141e-df02-40a7-b0a5-d930c3fd6fc0" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARBORN_RESTORE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he5aa3833gea2cgbabfgce5ege06f04ffb69f" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
+        <field name="StackId" type="StringTableFieldDefinition" value="STARBORN_RESTORE" />
+        <field name="TickType" type="EnumerationTableFieldDefinition" value="EndTurn" enumeration_type_name="TickType" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;NonExtendable" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="RestoreResource(SELF,Interrupt_APO_LuckyStar,1,0)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6a570316-b085-431e-a7cb-dd2748113a36" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_STARLIT_MARK_RESTORE" />
+        <field name="StackId" type="StringTableFieldDefinition" value="APO_STARLIT_MARK_RESTORE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_APO_StarlitMark_PactCost,,e9127b70-22b7-42a1-b172-d02f828f260a);" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="SpellId('Shout_APO_StarlitMark_PactCos') or HasActionResource('APO_StarlitMark_Charge',1,0,false,false,context.Source);" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnSpellCast;OnStatusApplied;OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

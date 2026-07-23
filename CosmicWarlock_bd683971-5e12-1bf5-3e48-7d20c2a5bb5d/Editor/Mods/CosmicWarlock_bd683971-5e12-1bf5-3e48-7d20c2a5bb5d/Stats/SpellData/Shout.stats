@@ -115,5 +115,71 @@
         <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:5;" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9a721755-a297-4da7-b286-25251ab1f313" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark_PactCost" />
+        <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="SpellSchool" version="1" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="Shout_APO_StarlitMark_PactCost_1;Shout_APO_StarlitMark_PactCost_2;Shout_APO_StarlitMark_PactCost_3;Shout_APO_StarlitMark_PactCost_4;Shout_APO_StarlitMark_PactCost_5;" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RestoreResource(APO_StarlitMark_Charge,1,0);" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self();" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_StarlitMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb701b0cdgcf86g00e1g7d07gc07995347e12" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h940eaf09ga25ega9e5gc5bag5c11a50c1742" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Action_Cast_BindPactWeapon" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Action_Impact_ArcaneRecovery" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:1;" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="03114753-8d91-4c52-8207-728a67cdd59b,,;,,;51c06d74-c048-452a-a248-41a751728e3e,,;e9731a5c-e4ba-4872-8950-36d625061ec3,,;8fcb1f19-a84b-486d-81fa-098aaf7cc9be,,;,,;c5bd6ce6-281c-4314-9f74-9f7bb2f4cf03,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Utility" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellStyleGroup" type="EnumerationTableFieldDefinition" value="Class" enumeration_type_name="SpellStyleGroup" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary;IsLinkedSpellContainer" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="af787096-8656-4495-a6ce-cbd376578069" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="b7fb4cd6-971f-44c0-9447-378092d36b63" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21515fdf-4092-4b1e-8f26-ee70a862c317" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark_PactCost_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9a721755-a297-4da7-b286-25251ab1f313" />
+        <field name="SpellContainerID" type="StringTableFieldDefinition" value="Shout_APO_StarlitMark_PactCost" />
+        <field name="ContainerSpells" type="StringTableFieldDefinition" value="-;" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="Temporary" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="76f3c515-f723-4634-99ca-b048d5aea894" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark_PactCost_2" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21515fdf-4092-4b1e-8f26-ee70a862c317" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:2;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3bcd2d46-9a2c-4b26-b615-fb127b27e77c" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark_PactCost_3" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21515fdf-4092-4b1e-8f26-ee70a862c317" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:3;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b46c60b9-658b-42c9-a68b-03afc724d7cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark_PactCost_4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21515fdf-4092-4b1e-8f26-ee70a862c317" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:4;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="58a34a20-9828-4836-be42-dfead59e7795" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark_PactCost_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21515fdf-4092-4b1e-8f26-ee70a862c317" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="SpellSlotsGroup:1:1:5;" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

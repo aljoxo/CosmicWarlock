@@ -10,7 +10,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="1" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(25c8558b-1ec3-4332-ac10-e19c899518bb,2,0,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(62d6bdd2-d565-416e-843c-1ff051e278d1,,,,AlwaysPrepared)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_CosmicGuidance;APO_DireOmen;" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_CosmicGuidance;APO_StarlitMark" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -111,7 +111,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="10" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75342813-b966-45de-a3e4-76c85146f440,1,2,,,e9127b70-22b7-42a1-b172-d02f828f260a)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_StellarRemnant_Rebirth;APO_StellarRemnant_Resistance" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_CosmicResilience;APO_StarfireWomb" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -156,7 +156,7 @@
         <field name="Level" type="ByteTableFieldDefinition" value="14" />
         <field name="ProgressionType" type="ByteTableFieldDefinition" value="1" />
         <field name="Selectors" type="StringTableFieldDefinition" value="SelectSpells(75342813-b966-45de-a3e4-76c85146f440,0,1,,,e9127b70-22b7-42a1-b172-d02f828f260a)" />
-        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_HarnessTheCosmos" />
+        <field name="PassivesAdded" type="StringTableFieldDefinition" value="APO_Starborn;APO_Starburst" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

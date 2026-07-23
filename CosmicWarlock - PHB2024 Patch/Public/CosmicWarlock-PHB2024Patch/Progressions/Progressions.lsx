@@ -23,7 +23,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="APO_CosmicGuidance;APO_DireOmen;"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_CosmicGuidance;APO_StarlitMark"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(40e83f5f-5950-47a5-a03f-872293c1a6d8,WPHBPatronMagic,Charisma,e9127b70-22b7-42a1-b172-d02f828f260a,AlwaysPrepared);SelectSpells(6e24ce47-4525-43ac-b382-dc2b6c443368,1,1,,,e9127b70-22b7-42a1-b172-d02f828f260a);AddSpells(62d6bdd2-d565-416e-843c-1ff051e278d1,,,,AlwaysPrepared);"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
@@ -81,7 +81,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="10"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="APO_StellarRemnant_Rebirth;APO_StellarRemnant_Resistance"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_CosmicResilience;APO_StarfireWomb"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(88b45e11-cf95-496f-825f-fda5f76fc7de,0,1,,,e9127b70-22b7-42a1-b172-d02f828f260a);"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>
@@ -114,7 +114,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="14"/>
                     <attribute id="Name" type="LSString" value="Cosmic"/>
-                    <attribute id="PassivesAdded" type="LSString" value="APO_HarnessTheCosmos"/>
+                    <attribute id="PassivesAdded" type="LSString" value="APO_Starborn;APO_Starburst"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="Selectors" type="LSString" value="SelectSpells(88b45e11-cf95-496f-825f-fda5f76fc7de,0,1,,,e9127b70-22b7-42a1-b172-d02f828f260a);"/>
                     <attribute id="TableUUID" type="guid" value="b3099164-efa9-4525-aa82-469712c0ad59"/>

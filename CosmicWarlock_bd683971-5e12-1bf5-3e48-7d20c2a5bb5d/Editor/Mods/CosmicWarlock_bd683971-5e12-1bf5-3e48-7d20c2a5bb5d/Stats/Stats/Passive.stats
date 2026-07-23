@@ -14,46 +14,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="da74e6b0-6997-46d1-9fc6-7bd8bafd5bb4" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_DireOmen" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h0324f9dfg4740g19f7gd661ge82d24d07492" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3e6b57b3g0f28ga1a5g6346gc67edc2188f3" version="2" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_DIRE_OMEN,100,1);" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Passive_DireOmen" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, SourceSpellDC());" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="eb0d49a2-36a3-42bb-89a5-274ef62a7719" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_DireOmen_Movement" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h34951751g4e75g4fc7gdafeg0660c7e3640e" version="1" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnMovedDistance" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="not HasStatus('APO_DIRE_OMEN_IMMUNITY');" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF, APO_DIRE_OMEN_DAMAGE, 100, 0);ApplyStatus(SELF, APO_DIRE_OMEN_IMMUNITY, 100, 0)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="4d802086-fe09-4082-9472-10faa2d2ea6a" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_DireOmen_MovementSpell" />
-        <field name="Using" type="BaseClassTableFieldDefinition" value="eb0d49a2-36a3-42bb-89a5-274ef62a7719" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCast" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="IsMovementSpell();" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4ee9af8a-8b64-4142-9989-9a8e0bd181cc" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_LuckyStar" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9dadf34g33bdg6edfgb318g342736d511d4" version="3" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9dadf34g33bdg6edfgb318g342736d511d4" version="4" />
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_LuckyStar_SavingThrow);UnlockInterrupt(APO_LuckyStar_Attack);" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2d4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_LuckyStar_SavingThrow);UnlockInterrupt(APO_LuckyStar_Attack);UnlockInterrupt(APO_LuckyStarlit_Attack);UnlockInterrupt(APO_LuckyStarlit_SavingThrow);" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="1d6" />
         <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="he422d04fg933cg6db7ge223g39b050c39fa7" version="1" />
         <field name="Icon" type="StringTableFieldDefinition" value="Passive_LuckyStar" />
       </fields>
@@ -67,30 +34,6 @@
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
         <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('ALCH_POTION_REST_SLEEP_GREATER_RESTORATION');" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,APO_COSMIC_RESTORE,100,0)" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="ebd8eccc-c16c-4441-9cdb-5361647226d0" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_StellarRemnant_Rebirth" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="2" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1" />
-        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1);Distance(9);DealDamage(8d6,Radiant)" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_STARBURST,100,-1)" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Starburst" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="15547c96-7872-4c12-a875-4d822038d557" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_StellarRemnant_Resistance" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="3" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="2" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;ForceShowInCC" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Passive_CosmicResilience" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Radiant,Resistant);" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -110,34 +53,83 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="97d06507-c7ee-46c6-8427-329f883bc8a4" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_DegeneratingSingularity" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdb0b75c9g9031g023eg53d0g6b8b5a2610bf" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd9b5d9efg14a1g65fbga653ge28c61c85869" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="UUID" type="IdTableFieldDefinition" value="839cfb7d-d789-4d73-852f-6b20a2b1a3b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hb1dc897cg449cg2982g0639g8fcf1d82f8d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5355d3d8g5b25g7fa4g60adg63295c20606c" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="ProficiencyBonus;Distance(18)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_StarlitMark" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_APO_StarlitMark);ActionResource(APO_StarlitMark_Charge,1,0);IF(HasStatus('APO_STARLIT_MARK_ADV',context.Target)):Advantage(AttackRoll);" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="h54bef447gdfadg2be1g1135ge97b344af4d3" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnActionResourcesChanged" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="not HasActionResource('APO_StarlitMark_Charge',1,0,false,false,context.Source);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,APO_STARLIT_MARK_RESTORE,100,-1)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="04d77908-1575-4b94-ab09-112b71402c8c" />
-        <field name="Name" type="NameTableFieldDefinition" value="APO_StarTouched" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h004e3b25ga177gb7d1ge4b2gfaa13f1b6d26" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h83308effge538gd4bfg5507ge96e8a613b87" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="IgnoreResistance(Radiant,Resistant);" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8e6f5a30-865c-4842-9743-25c37af36d7f" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_ScintillatingStarlight" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8d1005e4g54e8gb58eg8639g364963d230b2" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hc942edeag864cg50f5gef6cg524eea1c74ed" version="1" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="HasStatus('APO_STARLIT_MARK', context.Target) and not SavingThrow(Ability.Constitution, SourceSpellDC());" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_SCINNTILLATING_STARLIGHT,100,2)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="UUID" type="IdTableFieldDefinition" value="103bc1de-f7ec-4575-b348-bc5f307a2bb3" />
+        <field name="UUID" type="IdTableFieldDefinition" value="53864bd1-1e63-4b38-be58-e239920845fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_CosmicResilience" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heffbf2ddg5f86g0a06ga843ge76096e8d6d8" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1ea3a7cegedb1g7674g0565g8778ba3a7660" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_CosmicResilience" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Radiant,Resistant);Resistance(Cold,Resistant);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6558d770-c4e7-4c34-a3ab-f81d3ce94a21" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarfireWomb" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h08cac68fg9386gb2c9g832ag59801fd4cda7" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3311a19ag769bg21eeg2903gb835f755f1bb" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="ClassLevel(Warlock)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_StarfireWomb" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_StarfireWomb_Blinded);UnlockInterrupt(APO_StarfireWomb_Charmed);UnlockInterrupt(APO_StarfireWomb_Frightened);" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnTurn" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(not HasStatus('APO_STARFIRE_WOMB_TECHNICAL')):ApplyStatus(SELF,APO_STARFIRE_WOMB_TECHNICAL,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60ca1a42-32ba-4ba8-af08-34bcb9dd2143" />
         <field name="Name" type="NameTableFieldDefinition" value="APO_Starborn" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he934cf95g5618g59a6gbb8cg300ef664eaa1" version="1" />
-        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h36f88a9dga5bbgb85bg113bg1cc52a0b7cfb" version="1" />
-        <field name="Icon" type="StringTableFieldDefinition" value="Spell_HarnessTheCosmos" />
-        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Resistance(Cold, Resistant);Resistance(Fire, Resistant);Resistance(Force, Resistant);Resistance(Radiant, Immune);" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha9471699g4286ge1feg73f9gb878544b5296" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h758cef0agf824g037dg8bc7gc32f24e58e0c" version="2" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(CharismaModifier,Cold);DealDamage(CharismaModifier,Radiant)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Starborn" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerTurn" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamage" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="Character() and IsKillingBlow() and HasStatus('APO_STARLIT_MARK', context.Target);" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(SELF,APO_STARBORN_RESTORE,100,1)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockInterrupt(APO_Starborn_Cold);UnlockInterrupt(APO_Starborn_Radiant);ActionResource(APO_Starborn_Charge,1,0);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ebd8eccc-c16c-4441-9cdb-5361647226d0" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_Starburst" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="3" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(1);Distance(9);DealDamage(4d10,Radiant);DealDamage(4d10,Cold)" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted;OncePerLongRest" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnCreate;OnLongRest" enumeration_type_name="StatsFunctorContext" version="1" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(APO_STARBURST,100,-1)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Passive_Starburst" />
       </fields>
     </stat_object>
   </stat_objects>

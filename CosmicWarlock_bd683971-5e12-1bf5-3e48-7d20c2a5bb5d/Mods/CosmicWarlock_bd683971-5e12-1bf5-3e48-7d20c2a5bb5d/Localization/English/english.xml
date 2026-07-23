@@ -14,7 +14,7 @@
   <content contentuid="h3d191766ge187gb9e3g910fg170d6d300de3" version="2">Starburst</content>
   <content contentuid="ha31781e4ge807gcd48g772agbe84a7c593de" version="1">Enemy creatures within [1] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [2] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="heb678d77g39d4g78ccg0b0cgf5ca1e36a284" version="2">Starburst</content>
-  <content contentuid="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="1">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h9c84f8f8g608bg27bage677g2f1df48c02fd" version="3">If you reach 0 &lt;LSTag Tooltip="HitPoints"&gt;hit points&lt;/LSTag&gt;, you regain [1] instead of falling Unconcious. Enemy creatures within [2] make a Constitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, creatures take [4] and [3] and are &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;. On a successful save, creatures take half as much damage and aren't &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="h81ff3bd3g5e7bg27a9gff87ga10a324fc39d" version="3">Cosmic Resilience</content>
   <content contentuid="hb88708b9gc50fgf744gbfcag4ba0c7432512" version="2">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant damage.</content>
   <content contentuid="hbdf7eff4gb953g4207gc696ga38a814111bf" version="2">Solar Flare</content>
@@ -22,7 +22,7 @@
   <content contentuid="he25322ceg47fag624fgf631g24c197dd7b5f" version="2">Lucky Stars</content>
   <content contentuid="h8356c2c9gd2a6g1c6fg1dafg336a4552643e" version="1">%%% EMPTY</content>
   <content contentuid="h9d1c448eg2d61g2e11g42ddg3646fe621dc3" version="3">Lucky Stars</content>
-  <content contentuid="hd9dadf34g33bdg6edfgb318g342736d511d4" version="3">You gain the ability to add [1] to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="hd9dadf34g33bdg6edfgb318g342736d511d4" version="4">You gain the ability to add [1] to your &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;If the source of the &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag or the target of the &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; is under the effects of your &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;Starlit Mark&lt;/LSTag&gt;, this roll is made with an additional die.</content>
   <content contentuid="hf16d81c2g85f6g1ad1g6ac0gd245adcf01f2" version="3">Lucky Stars: Saving Throw</content>
   <content contentuid="h11b0d2b3gac99gb651g4d9ag821c0d3a2a4e" version="2">Add a +[1] bonus to your &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; if it would otherwise fail.</content>
   <content contentuid="h7ce0556cg60dfg2359gcdadg483191b84e09" version="1">Cosmic Guidance</content>
@@ -66,4 +66,47 @@
   <content contentuid="h33c98abcgf228g5853gc475ge57c5076cc62" version="1">I'm sick with a deep malaise, one that came from a place among the stars.</content>
   <content contentuid="hd5f523adg761agcd68g4445gbccb00b49456" version="1">I am the favoured vessel of some primordial, cosmic presence.</content>
   <content contentuid="hf6219014gf0f7ga2f1gf8d6g80889fb1cec1" version="1">&lt;i&gt;Entreat your patron - ask it to lend the tadpole its cosmic power.&lt;/i&gt;</content>
+  <content contentuid="h68d3c9b3ge52eg6888g7b69g9cc046bc67e6" version="2">Starlit Mark</content>
+  <content contentuid="h8e116a3dgcbdega453g5ce5g5e17fb85e019" version="1">Starlit Mark</content>
+  <content contentuid="h5167f829gc5ceg59dcg5f74gf708b2af853e" version="1">Up to [1] creatures are &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;bathed in starlight&lt;/LSTag&gt;. Additionally, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the first &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make against each target before the effect ends.</content>
+  <content contentuid="h68f75776g6b30g47e8g3211g176371420f02" version="1">Polaris</content>
+  <content contentuid="h6b58a01bgb82cg41a0g4aadgea3202c9842f" version="1">The Warlock has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their first &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against this target.</content>
+  <content contentuid="hbde11454g3962g8096g70d7g2a0a3c1732c8" version="1">Shedding dim light and cannot be Invisible.</content>
+  <content contentuid="h3acc9ae1g56e2g4e81gf5e0g9160449df22b" version="1">%%% EMPTY</content>
+  <content contentuid="hb1dc897cg449cg2982g0639g8fcf1d82f8d8" version="1">Starlit Mark</content>
+  <content contentuid="h5355d3d8g5b25g7fa4g60adg63295c20606c" version="1">As a bonus action, choose [1] creatures within [2] to be &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;bathed in starlight&lt;/LSTag&gt;.</content>
+  <content contentuid="hf6920778ge6e5g0408g9972g01d35f63b9f8" version="2">Starlit mark technical</content>
+  <content contentuid="h331ead88g4901g0f69ge624g9af841185477" version="1">starlit mark technical</content>
+  <content contentuid="h8623bf17g5b4bg260bg6ad2g4c33162bbdd4" version="1">Starlit Mark</content>
+  <content contentuid="ha888db3cgbf7bg9f1fg2ef8g549f15f48d1e" version="1">Up to [1] creatures are &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;bathed in starlight&lt;/LSTag&gt;. Additionally, you gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on the first &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; you make against each target before the effect ends.</content>
+  <content contentuid="h8d1005e4g54e8gb58eg8639g364963d230b2" version="1">Scintillating Starlight</content>
+  <content contentuid="hc942edeag864cg50f5gef6cg524eea1c74ed" version="1">When you deal damage to a creature marked by your &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;Starlit Mark&lt;/LSTag&gt;, it must make a Consitution &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt;. On a failed save, the target is &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; until the start of your next turn.</content>
+  <content contentuid="h33e3b170gc241g1e45g5386gc0a830ca2f42" version="1">Scintillating Starlight</content>
+  <content contentuid="h66e0156fg490cg9a41g3645g47e7c4f56294" version="1">Lucky Stars: Attack Roll (Starlit)</content>
+  <content contentuid="hf24f9f4ag0246g7296g26a3gcd6c85e15f36" version="1">Lucky Stars: Saving Throw (Starlit)</content>
+  <content contentuid="h08cac68fg9386gb2c9g832ag59801fd4cda7" version="1">Starfire Womb</content>
+  <content contentuid="h3311a19ag769bg21eeg2903gb835f755f1bb" version="2">At the end of your turn, you can expend a &lt;LSTag Type="ActionResource" Tooltip="Interrupt_APO_LuckyStar"&gt;Lucky Star&lt;/LSTag&gt; to end one condition causing you to be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;, &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt;, or &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When you expend a &lt;LSTag Type="ActionResource" Tooltip="Interrupt_APO_LuckyStar"&gt;Lucky Star&lt;/LSTag&gt; in this way, you gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="heffbf2ddg5f86g0a06ga843ge76096e8d6d8" version="1">Cosmic Resilience</content>
+  <content contentuid="h1ea3a7cegedb1g7674g0565g8778ba3a7660" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Cold and Radiant damage.</content>
+  <content contentuid="h8bac873fg1765ge422g193bgb20e5d2f1840" version="1">Starfire Womb: Blinded</content>
+  <content contentuid="hdd66f6e4g131dg592cgb35aged6c20412cb9" version="1">End any effects causing you to be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; and gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h0d35f2e7g5b9eg61a8g2656g86a0e0648860" version="1">Starfire Womb: Charmed</content>
+  <content contentuid="hfd6adee0gfe8fgbb8ag42b9gf9378e015e93" version="1">End any effects causing you to be &lt;LSTag Type="Status" Tooltip="CHARMED"&gt;Charmed&lt;/LSTag&gt; and gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h2e97e363g18ccgd271g6781gf1d7d7dbc3ab" version="1">Starfire Womb: Frightened</content>
+  <content contentuid="hacc64609g5e38g0c97g81adg4415636f11ec" version="1">End any effects causing you to be &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; and gain [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="h6af91a14gb3abgaafbg280ag302891075c89" version="1">Starfire Womb</content>
+  <content contentuid="he7c9dddege67fg966agc0e1g4a13b58369aa" version="1">Gained [1] &lt;LSTag Tooltip="TemporaryHitPoints"&gt;temporary hit points&lt;/LSTag&gt;.</content>
+  <content contentuid="ha9471699g4286ge1feg73f9gb878544b5296" version="1">Starborn</content>
+  <content contentuid="h758cef0agf824g037dg8bc7gc32f24e58e0c" version="2">You can deal an additional [1] or [2] to targets under the effects of your &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;Starlit Mark&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;When you kill a creature marked by your &lt;LSTag Type="Status" Tooltip="APO_STARLIT_MARK"&gt;Starlit Mark&lt;/LSTag&gt;, you restore a &lt;LSTag Type="ActionResource" Tooltip="Interrupt_APO_LuckyStar"&gt;Lucky Star&lt;/LSTag&gt;.</content>
+  <content contentuid="he5aa3833gea2cgbabfgce5ege06f04ffb69f" version="1">Starborn</content>
+  <content contentuid="h54bef447gdfadg2be1g1135ge97b344af4d3" version="1">Once you use this feature, you can't use it again until you finish a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; unless you expend a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slot&lt;/LSTag&gt; to restore your use of it.</content>
+  <content contentuid="hf52c73d3gacf1gd474g82c1g1b1ff78c9294" version="1">Once you use this feature, you can't use it again until you finish a &lt;LSTag Tooltip="ShortRest"&gt;Short&lt;/LSTag&gt; or &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt; unless you expend a &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slot&lt;/LSTag&gt; to restore your use of it.</content>
+  <content contentuid="hb701b0cdgcf86g00e1g7d07gc07995347e12" version="1">Starlit Mark Restoration</content>
+  <content contentuid="h940eaf09ga25ega9e5gc5bag5c11a50c1742" version="1">Expend one of your &lt;LSTag Tooltip="WarlockSpellSlot"&gt;Warlock spell slots&lt;/LSTag&gt; to restore your use of &lt;LSTag Type="Spell" Tooltip="Target_APO_StarlitMark"&gt;Starlit Mark&lt;/LSTag&gt;.</content>
+  <content contentuid="hed27b753g3fb2g7629gd0b3gef9c566c8f3c" version="2">%%% Starfire Womb Technical</content>
+  <content contentuid="h008df45eg838cge9ecgd053gbfd3733349a9" version="1">%%% Starfire Womb Active</content>
+  <content contentuid="h4920eb66g2411ga69cgd4a8g1560add71412" version="1">%%% EMPTY</content>
+  <content contentuid="h4648a1cagda25g3372g3e17gce418c6ec17e" version="2">Starborn: Cold</content>
+  <content contentuid="h8050ca7eg461eg08fbg74c0g14c0e5605c23" version="1">You deal an additional [1].</content>
+  <content contentuid="hc3249f97gd47bg0ff1g9d27ga0cbf77af84d" version="1">Starborn: Radiant</content>
 </contentList>

@@ -200,3 +200,4 @@ cython_debug/
 Image1.png
 Image2.png
 Thumbnail.png
+*.pak

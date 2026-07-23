@@ -20,6 +20,20 @@
                     <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="UUID" type="guid" value="22bebf66-464b-4611-a6ab-af4cf92d5586"/>
                 </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h3acc9ae1g56e2g4e81gf5e0g9160449df22b" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="APO_StarlitMark_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="UUID" type="guid" value="dd9026fe-b64e-4d28-9eb6-6425a0841cf6"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h4920eb66g2411ga69cgd4a8g1560add71412" version="1"/>
+                    <attribute id="IsHidden" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="APO_Starborn_Charge"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Turn"/>
+                    <attribute id="UUID" type="guid" value="f5b13a16-5385-4862-99cb-4f454ab9352e"/>
+                </node>
             </children>
         </node>
     </region>

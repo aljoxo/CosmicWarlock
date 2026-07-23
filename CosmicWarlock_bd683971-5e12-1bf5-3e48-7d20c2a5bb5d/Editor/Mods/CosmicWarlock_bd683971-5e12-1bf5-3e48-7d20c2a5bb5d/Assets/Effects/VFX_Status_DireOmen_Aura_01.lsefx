@@ -1371,8 +1371,8 @@
                   <rampchanneldata>
                     <rampchannel type="Linear" id="1f15bd2c-f19a-437b-b98a-77c9631b9af0">
                       <keyframes>
-                        <keyframe time="0" value="-11042872" />
-                        <keyframe time="1" value="-11042872" />
+                        <keyframe time="0" value="-3181313" />
+                        <keyframe time="1" value="-3181313" />
                       </keyframes>
                     </rampchannel>
                   </rampchanneldata>
@@ -1826,8 +1826,8 @@
                   <rampchanneldata>
                     <rampchannel type="Linear" id="1f15bd2c-f19a-437b-b98a-77c9631b9af0">
                       <keyframes>
-                        <keyframe time="0" value="-6043140" />
-                        <keyframe time="1" value="-6043140" />
+                        <keyframe time="0" value="-794257" />
+                        <keyframe time="1" value="-794257" />
                       </keyframes>
                     </rampchannel>
                   </rampchanneldata>
@@ -7438,10 +7438,10 @@
                   <rampchanneldata>
                     <rampchannel type="Linear" id="329fc981-abb2-422d-a808-ffa6f62fb778">
                       <keyframes>
-                        <keyframe time="0" value="-7096590" />
-                        <keyframe time="0.3674888" value="-7096590" />
-                        <keyframe time="0.5096899" value="-7096590" />
-                        <keyframe time="1" value="-7096590" />
+                        <keyframe time="0" value="-3238926" />
+                        <keyframe time="0.3674888" value="-3238926" />
+                        <keyframe time="0.5096899" value="-3238926" />
+                        <keyframe time="1" value="-3238926" />
                       </keyframes>
                     </rampchannel>
                   </rampchanneldata>
@@ -7747,10 +7747,10 @@
                   <rampchanneldata>
                     <rampchannel type="Linear" id="329fc981-abb2-422d-a808-ffa6f62fb778">
                       <keyframes>
-                        <keyframe time="0" value="-12756238" />
-                        <keyframe time="0.3716895" value="-9730872" />
-                        <keyframe time="0.5123287" value="-9730872" />
-                        <keyframe time="1" value="-12756238" />
+                        <keyframe time="0" value="-12763046" />
+                        <keyframe time="0.3716895" value="-5342494" />
+                        <keyframe time="0.5123287" value="-5342494" />
+                        <keyframe time="1" value="-12763046" />
                       </keyframes>
                     </rampchannel>
                   </rampchanneldata>
@@ -8056,8 +8056,8 @@
                   <rampchanneldata>
                     <rampchannel type="Linear" id="329fc981-abb2-422d-a808-ffa6f62fb778">
                       <keyframes>
-                        <keyframe time="0" value="-399667" />
-                        <keyframe time="1" value="-399667" />
+                        <keyframe time="0" value="-791352" />
+                        <keyframe time="1" value="-791352" />
                       </keyframes>
                     </rampchannel>
                   </rampchanneldata>

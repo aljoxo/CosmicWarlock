@@ -10,8 +10,8 @@
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="9" />
         <field name="ExplodeRadius" type="IntegerTableFieldDefinition" value="9" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, CalculateSpellDC(context.PreferredCastingAbility, GetSummoner(context.Source)))" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(8d6,Radiant,Magical);ApplyStatus(BLINDED,100,2);" />
-        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(8d6/2,Radiant,Magical);" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(4d10,Radiant,Magical);DealDamage(4d10,Cold,Magical);ApplyStatus(BLINDED,100,2);" />
+        <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(4d10/2,Radiant,Magical);DealDamage(4d10/2,Cold,Magical);" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="not Item() and not Self() and not Ally() and not Dead();" />
         <field name="Trajectories" type="StringTableFieldDefinition" value="f346b284-854e-4dd9-b87c-3938f5178265,78f998fb-2bb4-c8bd-c170-fcd899abc905,a62c27e3-86c0-db69-8f04-0ea3074cae7a" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3d191766ge187gb9e3g910fg170d6d300de3" version="2" />

@@ -12,5 +12,35 @@
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_CosmicGuidance" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e37b5193-3aa8-46be-84fc-a82800243843" />
+        <field name="Name" type="NameTableFieldDefinition" value="APO_StarlitMark" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(APO_STARLIT_MARK,100,10);ApplyStatus(APO_STARLIT_MARK_ADV,100,10);" />
+        <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Dead() and not Ally() and Character();" />
+        <field name="AmountOfTargets" type="StringTableFieldDefinition" value="LevelMapValue(APO_StarlitMark)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_StarlitMark" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h8623bf17g5b4bg260bg6ad2g4c33162bbdd4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="ha888db3cgbf7bg9f1fg2ef8g549f15f48d1e" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="ProficiencyBonus" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(APO_STARLIT_MARK,100,10);" />
+        <field name="PrepareSound" type="StringTableFieldDefinition" value="Spell_Prepare_Debuff_Gen_L1to3_01" />
+        <field name="PrepareLoopSound" type="StringTableFieldDefinition" value="Spell_Prepare_Debuff_Gen_L1to3_01_Loop" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Debuff_Bane_L1to3" />
+        <field name="TargetSound" type="StringTableFieldDefinition" value="Spell_Impact_Debuff_Bane_L1to3" />
+        <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1;APO_StarlitMark_Charge:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="9313094a-bae2-454f-9701-f920d0e8e98d,,;,,;09ae2f11-f5b4-42f5-ae16-687a5b57d500,,;10caea0e-c949-4d91-8ab7-3b50019dd054,,;808fdfab-2e6c-472e-b3c4-19ce4a719d9d,,;,,;ea745d30-eb87-447f-b190-c81298e27d9c,,;,,;,," />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="HasSomaticComponent;IsHarmful;IgnorePreviouslyPickedEntities" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="9a5f0dd5-d5d0-4d9c-91be-c7718a14820b" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a93c3186-fdeb-4764-80f7-78e5f68567f2" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="f9c9691a-0ab9-49ac-9e4f-e1ab47586e67" />
+        <field name="PositionEffect" type="GuidObjectTableFieldDefinition" value="17c3187c-c5f6-40b6-8940-c02b9dc5cf5f" />
+        <field name="ExtraDescription" type="TranslatedStringTableFieldDefinition" handle="hf52c73d3gacf1gd474g82c1g1b1ff78c9294" version="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
